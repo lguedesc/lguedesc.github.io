@@ -19,7 +19,7 @@ social: false # includes social icons at the bottom of the page
 ---
 Hello there! 👋
 
-I am a PhD candidate in mechanical engineering at Universidade Federal do Rio de Janeiro ([COPPE/UFRJ](https://coppe.ufrj.br)), working at Centre for Nonlinear Mechanics ([Mecanon](http://mecanon.coppe.ufrj.br)). In addition, I hold both M.Sc. and B.Sc. degrees also in mechanical engineering.
+I am a PhD candidate in mechanical engineering at Universidade Federal do Rio de Janeiro ([COPPE/UFRJ](https://coppe.ufrj.br)), working at Center for Nonlinear Mechanics ([Mecanon](http://mecanon.coppe.ufrj.br)). In addition, I hold both M.Sc. and B.Sc. degrees also in mechanical engineering.
 
 My current research is associated with nonlinear phenomena, including: energy harvesting, smart materials and structures, nonlinear dynamics, chaos, and multistable systems. 
 
