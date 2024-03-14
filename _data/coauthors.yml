@@ -32,3 +32,7 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"Savi":
+  - firstname: ["Marcelo", "M.", "Marcelo Amorim", "Marcelo A.", "M. A."]
+    url: https://scholar.google.com.br/citations?user=efTbXygAAAAJ&hl=en
