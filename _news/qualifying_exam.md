@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-Today marked a significant milestone as I defended my qualifying exam on the path to obtaining my PhD. The topic is on the analysis of energy harvesters Using a nonlinear dynamics perspective. I'm very grateful for the insightful feedback and constructive criticism received from my esteemed evaluators. Excited for the next steps in this academic journey! 
+Today marked a significant milestone as I defended my qualifying exam on the path to obtaining my PhD. The topic is on the analysis of energy harvesters using a nonlinear dynamics perspective. I'm very grateful for the insightful feedback and constructive criticism received from my esteemed evaluators. Excited for the next steps in this academic journey! 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
