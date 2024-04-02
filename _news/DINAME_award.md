@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'm honored to announce that I receive the award for the best student paper at the XIX International Symposium on Dynamic Problems of Mechanics (DINAME 2023), held at Pirenópolis, Brazil. :star_struck: :trophy:
+I'm honored to announce that I received the award for the best student paper at the XIX International Symposium on Dynamic Problems of Mechanics (DINAME 2023), held in Pirenópolis, Brazil. :star_struck: :trophy:
