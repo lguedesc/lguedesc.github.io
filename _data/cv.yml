@@ -11,6 +11,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Postdoctoral Researcher
+      institution: Center for Nonlinear Mechanics, Universidade Federal do Rio de Janeiro (UFRJ), Brazil
+      year: 2024 - today
+      description:
+        - Design, development and analysis of new nonlinear smart systems and structures.
+        - Development of high performance software package to simulate dynamical systems.
+            
     - title: Doctoral Researcher
       institution: Center for Nonlinear Mechanics, Universidade Federal do Rio de Janeiro (UFRJ), Brazil
       year: 2020 - 2024
@@ -18,7 +25,7 @@
         - title: Design, development and analysis of nonlinear energy harvesters.
           contents:
             - Development of a theoretical nonlinear dynamics framework.
-            - Development of high performance programs to simulate dynamical systems.
+            - Design of novel compact and multidirectional energy harvesters.
     
     - title: Co-Founder and Partner
       institution: Tupan Acessibility
