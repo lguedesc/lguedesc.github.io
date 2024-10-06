@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper entitled "Nonlinear dynamics of a compact and multistable mechanical energy harvester" was published in [International Journal of Mechanical Sciences](https://www.sciencedirect.com/science/article/abs/pii/S0020740323006331?via%3Dihub) today! :tada: 
+:scroll: Our paper entitled *"Nonlinear dynamics of a compact and multistable mechanical energy harvester"*&nbsp; was published in [International Journal of Mechanical Sciences](https://www.sciencedirect.com/science/article/abs/pii/S0020740323006331?via%3Dihub) today! :tada: 

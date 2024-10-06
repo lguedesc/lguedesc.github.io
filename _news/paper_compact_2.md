@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper entitled "Multistability investigation for improved performance in a compact nonlinear energy harvester" was published in [The Journal of the Brazilian Society of Mechanical Sciences and Engineering](https://link.springer.com/article/10.1007/s40430-024-04766-5) today! :tada: 
+:scroll: Our paper entitled *"Multistability investigation for improved performance in a compact nonlinear energy harvester"*&nbsp; was published in [The Journal of the Brazilian Society of Mechanical Sciences and Engineering](https://link.springer.com/article/10.1007/s40430-024-04766-5) today! :tada: 

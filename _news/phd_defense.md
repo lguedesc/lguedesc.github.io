@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I received my Ph.D. today!!
+title: 🎓 I received my Ph.D. today!!
 date: 2024-07-12 15:00:00-0400
 inline: false
 related_posts: false
