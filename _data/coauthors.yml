@@ -1,11 +1,11 @@
 "savi":
-  - firstname: ["Marcelo", "M.", "Marcelo Amorim", "Marcelo A.", "M. A.", "Amorim"]
+  - firstname: ["Marcelo", "M.", "M", "Marcelo Amorim", "Marcelo A.", "Marcelo A" ,"M. A.", "M A"]
     url: https://scholar.google.com.br/citations?user=efTbXygAAAAJ&hl=en
 
 "monteiro":
-  - firstname: ["Luciana", "Luciana Loureiro", "Luciana Loureiro Silva", "Luciana Loureiro da Silva", "Luciana L. S.", "L. L. S."]
+  - firstname: ["Luciana", "Luciana Loureiro", "Luciana Loureiro Silva", "Luciana Loureiro da Silva", "Luciana L. S.", "Luciana L S", "L. L. S.", "L L S"]
     url: https://scholar.google.com/citations?user=gx-_1hcAAAAJ&hl=pt-BR&oi=ao
 
 "pacheco":
-  - firstname: ["Pedro", "Pedro Manuel", "Pedro Manuel Calas", "Pedro Manuel Calas Lopes", "Pedro Manuel C. L.", "Pedro M. C. L", "P. M. C. L."]
+  - firstname: ["Pedro", "Pedro Manuel", "Pedro Manuel Calas", "Pedro Manuel Calas Lopes", "Pedro Manuel C. L.", "Pedro Manuel C L", "Pedro M. C. L.", "Pedro M C L", "P. M. C. L.", "P M C L"]
     url: https://scholar.google.com.br/citations?user=-LQgwx4AAAAJ&hl=en
