@@ -17,6 +17,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
+
 Hello there! 👋
 
 I am a Ph.D. in mechanical engineering. Currently working as a postdoctoral researcher associated with the Center for Nonlinear Mechanics ([Mecanon](http://mecanon.coppe.ufrj.br)) at Universidade Federal do Rio de Janeiro ([COPPE/UFRJ](https://coppe.ufrj.br)). In addition, I hold both M.Sc. and B.Sc. degrees also in mechanical engineering.

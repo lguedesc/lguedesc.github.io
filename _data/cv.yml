@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 07th June 1993
     - name: Languages
-      value: Portuguese, English 
+      value: Portuguese, English
 
 - title: Experience
   type: time_table
@@ -17,16 +17,16 @@
       description:
         - Design, development and analysis of new nonlinear smart systems and structures.
         - Development of high performance software package to simulate dynamical systems.
-            
+
     - title: Doctoral Researcher
       institution: Center for Nonlinear Mechanics, Universidade Federal do Rio de Janeiro (UFRJ), Brazil
       year: 2020 - 2024
-      description: 
+      description:
         - title: Design, development and analysis of nonlinear energy harvesters.
           contents:
             - Development of a theoretical nonlinear dynamics framework.
             - Design of novel compact and multidirectional energy harvesters.
-    
+
     - title: Co-Founder and Partner
       institution: Tupan Acessibility
       year: 2020 - 2022
@@ -65,7 +65,7 @@
       year: 2011-2017
       description:
         - Mechanical Engineering.
-    
+
     - title: Academic Exchange
       institution: Technological University Dublin, Ireland
       year: 2015-2016
@@ -75,13 +75,13 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - title: Best Student Paper Award 
+    - title: Best Student Paper Award
       institution: Brazilian Society of Mechanical Sciences and Engineering (ABCM)
       year: 2023
       description:
         - <a href="../assets/pdf/diname_award.pdf" target="_blank">International Award</a> at XIX International Symposium on Dynamic Problems of Mechanics (DINAME)
 
-    - title: Champion of the Invent for the Planet  
+    - title: Champion of the Invent for the Planet
       institution: Texas A&M, USA
       year: 2019
       description:
@@ -92,10 +92,10 @@
   contents:
     - title: International Journal of Mechanical Sciences
       year: 2021-2024
-    
+
     - title: Nonlinear Dynamics
       year: 2023-2024
-    
+
     - title: Journal of Vibration and Control
       year: 2020-2023
 
@@ -112,18 +112,17 @@
         - Matlab
         - Wolfram Mathematica
         - Bash
-    
+
     - title: Software
       items:
         - ANSYS APDL
-    
+
     - title: Libraries
       items:
         - OpenMP
         - Pandas
         - Numpy
         - Matplotlib
-
 #- title: Academic Interests
 #  type: nested_list
 #  contents:
