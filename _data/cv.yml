@@ -63,7 +63,7 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - title: Best PhD Student Paper Award
+    - title: Best Graduate Student Paper Award
       institution: Brazilian Society of Mechanical Sciences and Engineering (ABCM)
       year: 2024
       description:
@@ -73,7 +73,7 @@
       institution: Brazilian Society of Mechanical Sciences and Engineering (ABCM)
       year: 2023
       description:
-        - <a href="../assets/pdf/diname_award.pdf" target="_blank">Award</a> at XIX International Symposium on Dynamic Problems of Mechanics (DINAME)
+        - <a href="/assets/pdf/diname_award.pdf" target="_blank">Award</a> at XIX International Symposium on Dynamic Problems of Mechanics (DINAME)
 
     - title: Champion of the Invent for the Planet
       institution: Texas A&M, USA
@@ -112,6 +112,9 @@
 
     - title: Journal of Computational and Nonlinear Dynamics
       year: 2023-2024
+
+    - title: Journal of Vibration Engineering & Technologies
+      year: 2024
 
 - title: Skills and Expertise
   type: nested_list
