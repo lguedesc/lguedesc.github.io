@@ -1,34 +1,24 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"savi":
+  - firstname: ["Marcelo", "M.", "M", "Marcelo Amorim", "Marcelo A.", "Marcelo A", "M. A.", "M A"]
+    url: https://scholar.google.com.br/citations?user=efTbXygAAAAJ&hl=en
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"monteiro":
+  - firstname:
+      ["Luciana", "Luciana Loureiro", "Luciana Loureiro Silva", "Luciana Loureiro da Silva", "Luciana L. S.", "Luciana L S", "L. L. S.", "L L S"]
+    url: https://scholar.google.com/citations?user=gx-_1hcAAAAJ&hl=pt-BR&oi=ao
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
-
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"pacheco":
+  - firstname:
+      [
+        "Pedro",
+        "Pedro Manuel",
+        "Pedro Manuel Calas",
+        "Pedro Manuel Calas Lopes",
+        "Pedro Manuel C. L.",
+        "Pedro Manuel C L",
+        "Pedro M. C. L.",
+        "Pedro M C L",
+        "P. M. C. L.",
+        "P M C L",
+      ]
+    url: https://scholar.google.com.br/citations?user=-LQgwx4AAAAJ&hl=en
