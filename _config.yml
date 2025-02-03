@@ -11,7 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   This is my personal website where I register my academic projects.
 footer_text: >
-  
+
 keywords: Luã, Guedes, Costa, Luã G. Costa, L. G. Costa, Luã G Costa, L G Costa, energy harvesting, chaos, nonlinear dynamics, piezoelectric, smart materials, smart structures, multistability, multistable, bistable, nonlinear, dynamics, mechanics # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon/chaos.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
