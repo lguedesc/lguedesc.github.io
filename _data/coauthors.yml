@@ -1,5 +1,5 @@
 "savi":
-  - firstname: ["Marcelo", "M.", "M", "Marcelo Amorim", "Marcelo A.", "Marcelo A", "M. A.", "M A"]
+  - firstname: ["Marcelo", "Marcelo Amorim", "Marcelo A.", "Marcelo A", "M. A.", "M A"]
     url: https://scholar.google.com.br/citations?user=efTbXygAAAAJ&hl=en
 
 "monteiro":
@@ -22,3 +22,36 @@
         "P M C L",
       ]
     url: https://scholar.google.com.br/citations?user=-LQgwx4AAAAJ&hl=en
+
+"caetano":
+  - firstname: ["Virgilio", "Virgilio Junior", "Virgilio J.", "Virgilio J", "V. J.", "V J"]
+    url: https://scholar.google.com/citations?hl=en&user=fEd4um8AAAAJ
+
+"reis":
+  - firstname:
+      [
+        "Eduardo",
+        "Eduardo Villela",
+        "Eduardo Villela Machado",
+        "Eduardo Villela Machado",
+        "Eduardo Villela M.",
+        "Eduardo Villela M",
+        "Eduardo V. M.",
+        "Eduardo V M",
+        "E. V. M.",
+        "E V M",
+      ]
+    url: https://www.researchgate.net/profile/Eduardo-Reis-13
+
+"adeodato":
+  - firstname: ["Arthur", "A.", "A"]
+    url: https://scholar.google.com/citations?hl=en&user=WvzNt64AAAAJ
+
+"duarte":
+  - firstname: ["Brenno", "Brenno Tavares", "Breno T.", "Breno T", "B. T.", "B T"]
+    url: https://www.researchgate.net/profile/Brenno-Duarte
+
+"borges":
+  - firstname:
+      ["Gabriel", "Gabriel Xavier", "Gabriel Xavier Gonçalves", "Gabriel X.", "Gabriel X", "Gabriel X. G.", "Gabriel X G", "G. X. G.", "G X G"]
+    url: https://www.researchgate.net/profile/Gabriel-Borges-16
