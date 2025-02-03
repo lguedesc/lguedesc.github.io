@@ -52,18 +52,39 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+    },{id: "news-i-39-m-honored-to-announce-that-i-received-the-award-for-the-best-phd-student-paper-at-the-xix-international-symposium-on-dynamic-problems-of-mechanics-diname-2023",
+          title: '🏆 I&amp;#39;m honored to announce that I received the award for the best...',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/1-DINAME_award/";
+            },},{id: "news-scroll-our-paper-entitled-nonlinear-dynamics-of-a-compact-and-multistable-mechanical-energy-harvester-was-published-in-international-journal-of-mechanical-sciences-today-tada",
+          title: ':scroll: Our paper entitled “Nonlinear dynamics of a compact and multistable mechanical energy...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "news-i-defended-my-qualifying-exam-today",
+          title: 'I defended my qualifying exam today!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/3-qualifying_exam/";
+            },},{id: "news-scroll-our-paper-entitled-multistability-investigation-for-improved-performance-in-a-compact-nonlinear-energy-harvester-was-published-in-the-journal-of-the-brazilian-society-of-mechanical-sciences-and-engineering-today-tada",
+          title: ':scroll: Our paper entitled “Multistability investigation for improved performance in a compact nonlinear...',
+          description: "",
+          section: "News",},{id: "news-i-received-my-ph-d-today",
+          title: '🎓 I received my Ph.D. today!!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/5-phd_defense/";
+            },},{id: "news-scroll-our-paper-entitled-pendulum-based-hybrid-system-for-multidirectional-energy-harvesting-was-published-in-nonlinear-dynamics-today-tada",
+          title: ':scroll: Our paper entitled “Pendulum-based hybrid system for multidirectional energy harvesting”  was published...',
+          description: "",
+          section: "News",},{id: "news-scroll-excited-to-announce-the-publication-of-my-final-doctoral-thesis-paper-complex-nonlinear-dynamics-of-a-multidirectional-energy-harvester-with-hybrid-transduction-in-smart-materials-and-structures",
+          title: ':scroll: Excited to announce the publication of my final doctoral thesis paper, “Complex...',
+          description: "",
+          section: "News",},{id: "news-i-39-m-honored-to-announce-that-i-received-the-abcm-best-paper-award-at-the-9th-international-symposium-on-solid-mechanics-mecsol-2024",
+          title: '🏆 I&amp;#39;m honored to announce that I received the ABCM Best Paper Award...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/8-MECSOL_award/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
