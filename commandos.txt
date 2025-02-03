@@ -1,0 +1,7 @@
+comando para local server: 
+
+bundle exec jekyll s
+
+comando para consertar erros de formatação
+
+npx prettier --write .
