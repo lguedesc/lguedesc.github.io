@@ -2,96 +2,162 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Luã Guedes Costa
     - name: Date of Birth
-      value: 14th March 1879
+      value: 07th June 1993
     - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: Portuguese, English
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Researcher
+      institution: Center for Nonlinear Mechanics, Universidade Federal do Rio de Janeiro (UFRJ), Brazil
+      year: 2024 - today
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Design, development and analysis of new nonlinear smart systems and structures.
+        - Development of high performance software package to simulate dynamical systems.
+
+    - title: Doctoral Researcher
+      institution: Center for Nonlinear Mechanics, Universidade Federal do Rio de Janeiro (UFRJ), Brazil
+      year: 2020 - 2024
+      description:
+        - title: Design, development and analysis of nonlinear energy harvesters.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Development of a theoretical nonlinear dynamics framework.
+            - Design of novel compact and multidirectional energy harvesters.
+
+    - title: Co-Founder and Partner
+      institution: Tupan Acessibility
+      year: 2020 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Co-creator of the EVA system, an equipment to assist the visually impaired to navigate independently while walking.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Assistant
+      institution: Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ), Brazil
+      year: 2018 - 2020
       description:
+        - Analysis of bistable piezoelectric energy harvesters using reduced order models
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Undergraduate Research Fellowship
+      institution: Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ), Brazil
+      year: 2017 - 2018
+      description:
+        - Analysis of bistable piezoelectric energy harvesters using finite element method
 
-- title: Open Source Projects
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: PhD in Mechanical Engineering
+      institution: Universidade Federal do Rio de Janeiro (UFRJ), Brazil
+      year: 2020 - 2024
+
+    - title: Master's Degree in Mechanical Engineering and Materials Technology
+      institution: Centro Federal de Educação Celso Suckow da Fonseca (CEFET/RJ), Brazil
+      year: 2018 - 2020
+
+    - title: Mechanical Engineering Degree
+      institution: Centro Federal de Educação Celso Suckow da Fonseca (CEFET/RJ), Brazil
+      year: 2011 - 2017
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: ABCM Best Paper Award
+      institution: Brazilian Society of Mechanical Sciences and Engineering (ABCM)
+      year: 2024
+      description:
+        - <a href="/assets/pdf/mecsol_award.pdf" target="_blank">Award</a> at the 9th International Symposium on Solid Mechanics (MECSOL)
 
-- title: Academic Interests
+    - title: Best PhD Student Paper Award
+      institution: Brazilian Society of Mechanical Sciences and Engineering (ABCM)
+      year: 2023
+      description:
+        - <a href="/assets/pdf/diname_award.pdf" target="_blank">Award</a> at XIX International Symposium on Dynamic Problems of Mechanics (DINAME)
+
+    - title: Champion of the Invent for the Planet
+      institution: Texas A&M, USA
+      year: 2019
+      description:
+        - <a href="https://engineering.tamu.edu/news/2021/02/texas-am-invent-for-the-planet-winners-launch-company.html">Award</a> for the invention of a device to help the visually impaired navigate while walking, replacing a cane.
+
+- title: Additional Training
+  type: time_table
+  contents:
+    - title: School of Advanced Sciences on Nonlinear Dynamics
+      institution: Universidade de São Paulo (USP), Brazil
+      year: 2019
+
+    - title: Oratory
+      institution: Rogéria Guida Oratory Course, Rio de Janeiro, Brazil
+      year: 2017
+
+    - title: Undergraduate Exchange Program in Mechanical Engineering
+      institution: Technological University Dublin, Ireland
+      year: 2015 - 2016
+      description:
+        - Two semester academic exchange focused on computational-aided engineering (CAE) and entrepreneurship for engineers.
+
+- title: Peer Review
+  type: time_table
+  contents:
+    - title: International Journal of Mechanical Sciences
+      year: 2021 - 2024
+
+    - title: Nonlinear Dynamics
+      year: 2023 - 2024
+
+    - title: Journal of Vibration and Control
+      year: 2020 - 2023
+
+    - title: Journal of Computational and Nonlinear Dynamics
+      year: 2023 - 2024
+
+    - title: Journal of Vibration Engineering & Technologies
+      year: 2024
+
+- title: Skills and Expertise
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - C
+        - Python
+        - Matlab
+        - Wolfram Mathematica
+        - Bash
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Software
+      items:
+        - ANSYS APDL
+
+    - title: Libraries
+      items:
+        - OpenMP
+        - Pandas
+        - Numpy
+        - Matplotlib
+#- title: Academic Interests
+#  type: nested_list
+#  contents:
+#    - title: Topic 1.
+#      items:
+#        - Description 1.
+#        - Description 2.
+#    - title: Topic 2.
+#      items:
+#        - Description 1.
+#        - Description 2.
+
+#- title: Open Source Projects
+#  type: time_table
+#  contents:
+#    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#      year: 2015-now
+#      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+#- title: Other Interests
+#  type: list
+#  contents:
+#    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
