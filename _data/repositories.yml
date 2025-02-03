@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - lguedesc
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - lguedesc/Scripts-on-Nonlinear-Dynamics
+  - lguedesc/Text-Wrapper
+  - lguedesc/ANSI-Colored-Output
+  - lguedesc/Progress-Bar

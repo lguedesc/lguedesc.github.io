@@ -194,6 +194,8 @@ exclude:
   - _pages/dropdown.md
   - _pages/teaching.md
   - _pages/projects.md
+  - _pages/profiles.md
+  - _pages/repositories.md
   - _posts/
   - _projects/
 keep_files:
