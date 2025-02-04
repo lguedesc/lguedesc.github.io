@@ -14,3 +14,5 @@ git_commit:
 git_push:
 	git push origin main
 
+server:
+	bundle exec jekyll s
