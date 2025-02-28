@@ -5,3 +5,28 @@ bundle exec jekyll s
 comando para consertar erros de formatação
 
 npx prettier --write .
+
+
+  - url: https://linkedin.com/in/luagcosta
+    icon: fa-brands fa-linkedin
+    text: Linkedin
+
+  - url: https://github.com/lguedesc
+    icon: fa-brands fa-github
+    text: Github
+
+  - url: http://lattes.cnpq.br/4475844614704668
+    icon: ai ai-lattes
+    text: Lattes
+  
+  - url: https://scholar.google.com.br/citations?user=ZOk5zccAAAAJ&hl=pt-BR
+    icon: ai ai-google-scholar
+    text: Scholar
+
+  - url: https://orcid.org/0000-0002-2836-723X
+    icon: ai ai-orcid
+    text: OrcID
+
+  - url: https://www.researchgate.net/profile/Lua-Costa
+    icon: ai ai-researchgate
+    text: ResearchGate
