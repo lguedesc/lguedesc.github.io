@@ -1,0 +1,167 @@
+---
+layout: no-header-footer
+---
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+<link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
+<link
+  defer
+  rel="stylesheet"
+  type="text/css"
+  href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
+>
+
+<div class="vcard-container">
+  <!-- Profile image -->
+  {% assign image_filename = site.data.vcard.image %}
+  {% assign image_url = '/assets/img/' | append: image_filename %}
+
+  <div class="profile-image-container">
+    <img src="{{ image_url }}" alt="Profile Image" class="profile-image">
+  </div>
+
+  <!-- Profile Name -->
+  <div class="profile-name">
+    <h4>{{ site.data.vcard.name }}</h4>
+  </div>
+
+  <!-- Conditionally Render Description -->
+  {% if site.data.vcard.description %}
+    <p class="profile-description">{{ site.data.vcard.description }}</p>
+  {% endif %}
+
+  <!-- Buttons Section -->
+  <div class="button-list">
+    {% for button in site.data.vcard.buttons %}
+      <a href="{{ button.url }}" class="button">
+        {% if button.emoji %}
+          <span class="emoji">{{ button.emoji }}</span>
+        {% elsif button.icon contains '.svg' %}
+          <!-- Handle SVG icon -->
+          <img src="{{ button.icon }}" alt="{{ button.text }} icon" class="button-icon">
+        {% else %}
+          <!-- Handle Font Awesome or other icons -->
+          <i class="{{ button.icon }}"></i>
+        {% endif %}
+
+        {{ button.text }}
+      </a>
+    {% endfor %}
+  </div>
+
+  <!-- Social Media Section -->
+  {% if site.data.vcard.social == true %}
+    <div class="social">
+      <div class="contact-icons">{% include social.liquid %}</div>
+    </div>
+  {% endif %}
+</div>
+
+<style>
+  .vcard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #111; /* Dark background, adjust as needed */
+  }
+
+  .profile-image-container {
+    width: 120px; /* Width of the circular image */
+    height: 120px; /* Height of the circular image */
+    overflow: hidden;
+    border-radius: 50%; /* Makes the image circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+  }
+
+  .profile-name h4 {
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+  }
+
+  .profile-description {
+    margin-top: 0px;
+    color: grey;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* Button List Styles */
+  .button-list {
+    display: flex;
+    flex-direction: column; /* Arrange buttons vertically */
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%; /* Ensure buttons take up the full width */
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    background-color: darkorange;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px 0; /* Vertical margin between buttons */
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 450;
+    transition:
+      background-color 0.3s ease,
+      text-decoration 0.3s ease;
+  }
+
+  .button i {
+    margin-right: 20px; /* Space between icon and text */
+    font-size: 20px; /* Adjust size of icon */
+    width: 20px;
+    display: inline-block; /* Ensure the icon is inline with the text */
+    line-height: 1; /* Prevent vertical alignment issues */
+  }
+
+  .button-icon {
+    margin-right: 20px; /* Space between icon and text */
+    font-size: 20px; /* Adjust size of icon */
+    width: 20px;
+    display: inline-block; /* Ensure the icon is inline with the text */
+    line-height: 1; /* Prevent vertical alignment issues */
+  }
+
+  .button:hover {
+    color: black;
+    text-decoration: none;
+    transform: scale(1.025);
+  }
+
+  .emoji {
+    margin-right: 20px; /* Space between icon and text */
+    font-size: 20px; /* Adjust size of icon */
+    width: 20px;
+    text-align: center;
+    display: inline-block; /* Ensure the icon is inline with the text */
+    line-height: 1; /* Prevent vertical alignment issues */
+  }
+
+  /* Adjusting the size of social icons */
+  .social .contact-icons i {
+    font-size: 30px; /* Set the desired size of the icons */
+  }
+
+  /* Optional: Add a hover effect to increase icon size */
+  .social .contact-icons i:hover {
+    transform: scale(1.2); /* Slightly increase icon size on hover */
+  }
+</style>

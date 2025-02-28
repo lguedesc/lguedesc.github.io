@@ -1,0 +1,18 @@
+image: "Perfil.jpg"
+name: Luã G. Costa
+description: Researcher at Center for Nonlinear Mechanics, COPPE/UFRJ, Brazil
+
+social: true
+
+buttons:
+  - url: https://lgcosta.com/publications/
+    emoji: "📜"
+    text: Check my latest publications!
+
+  - url: https://lgcosta.com
+    emoji: "👋🏻"
+    text: Know more about me
+
+  - url: http://mecanon.coppe.ufrj.br/
+    icon: "/assets/img/mecanon-logo-simple.svg"
+    text: Center for Nonlinear Mechanics
