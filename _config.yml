@@ -9,7 +9,7 @@ last_name: Costa
 contact_note: >
   You can contact me via e-mail, researchgate or linkedin.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  This is my personal website where I register my academic projects.
+  My professional portfolio documenting my academic activities.
 footer_text: >
 
 keywords: Luã, Guedes, Costa, Luã G. Costa, L. G. Costa, Luã G Costa, L G Costa, energy harvesting, chaos, nonlinear dynamics, piezoelectric, smart materials, smart structures, multistability, multistable, bistable, nonlinear, dynamics, mechanics # add your own keywords or leave empty
@@ -193,10 +193,10 @@ exclude:
   - _pages/blog.md
   - _pages/dropdown.md
   - _pages/teaching.md
-  - _pages/projects.md
   - _pages/profiles.md
   - _pages/repositories.md
   - _posts/
+  - _pages/projects.md
   - _projects/
 keep_files:
   - CNAME

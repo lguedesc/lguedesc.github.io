@@ -4,7 +4,7 @@ title: Mechanical Energy Harvesting
 description: A clean alternative to power standalone devices.
 img: assets/img/for_research/energy_harvesting.jpg
 importance: 1
-category: Research
+category: Research Themes
 related_publications: true
 ---
 

@@ -4,7 +4,7 @@ title: Nonlinear Dynamics and Chaos
 description: Predicting the complexity of natural systems.
 img: assets/img/for_research/nonlinear_dynamics.png
 importance: 2
-category: Research
+category: Research Themes
 related_publications: true
 ---
 
