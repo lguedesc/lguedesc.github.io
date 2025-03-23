@@ -84,6 +84,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/8-MECSOL_award/";
+            },},{id: "news-diname-2025",
+          title: '📍 DINAME 2025',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/9-DINAME_2025/";
             },},{
         id: 'social-email',
         title: 'email',
