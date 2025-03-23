@@ -28,7 +28,7 @@ I would like to express my gratitude to my advisor [Marcelo Savi](https://schola
 
 This recognition inspires me to further explore innovative approaches in energy harvesting and nonlinear mechanics.
 
-📜 The full text can be found [here](https://lnkd.in/dzr7tsJz).
+📜 The full text can be found [here](/assets/pdf/conference_publications/Costa & Savi (2024) - Mechanical Energy Multi-Harvesting - On the Performance Enhancement of Mechanical Energy Harvesters (MECSOL 2024).pdf).
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
