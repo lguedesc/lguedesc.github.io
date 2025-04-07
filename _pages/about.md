@@ -7,7 +7,7 @@ subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 profile:
   align: right
   image: Perfil.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   #more_info: >
   #  <p>555 your office number</p>
   #  <p>123 your address street</p>
@@ -29,8 +29,8 @@ latest_posts:
 
 Hello there! 👋
 
-I am a Ph.D. in mechanical engineering. Currently working as a postdoctoral researcher associated with the Center for Nonlinear Mechanics ([Mecanon](http://mecanon.coppe.ufrj.br)) at Universidade Federal do Rio de Janeiro ([COPPE/UFRJ](https://coppe.ufrj.br)). In addition, I hold both M.Sc. and B.Sc. degrees also in mechanical engineering.
+I am a Ph.D. in Mechanical Engineering and a Professor at the Federal University of Rio de Janeiro ([COPPE/UFRJ](https://coppe.ufrj.br)), affiliated with the Center for Nonlinear Mechanics ([Mecanon](http://mecanon.coppe.ufrj.br)). In addition, I hold both M.Sc. and B.Sc. degrees also in mechanical engineering.
 
-My current research is associated with nonlinear phenomena, including: energy harvesting, smart materials and structures, nonlinear dynamics, multistability, and chaos. My expertise is complemented by a solid background in HPC, allowing me to tackle complex problems with precision and efficiency.
+My current research is associated with nonlinear phenomena, including energy harvesting, smart materials and structures, nonlinear dynamics, multistability, and chaos. My expertise is complemented by a solid background in HPC, allowing me to tackle complex problems with precision and efficiency.
 
 You can contact me via e-mail, researchgate or linkedin.
