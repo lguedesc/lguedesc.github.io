@@ -15,4 +15,4 @@ git_push:
 	git push origin main
 
 server:
-	bundle exec jekyll s
+	source .venv/bin/activate && bundle exec jekyll s
