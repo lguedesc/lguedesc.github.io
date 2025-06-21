@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -89,6 +96,26 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/9-DINAME_2025/";
+            },},{id: "projects-mechanical-energy-harvesting",
+          title: 'Mechanical Energy Harvesting',
+          description: "A clean alternative to power standalone devices.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/research_1-energy_harvesting/";
+            },},{id: "projects-nonlinear-dynamics-and-chaos",
+          title: 'Nonlinear Dynamics and Chaos',
+          description: "Predicting the complexity of natural systems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/research_2-nonlinear_dynamics/";
+            },},{id: "projects-mecânica-de-sistemas-inteligentes",
+          title: 'Mecânica de Sistemas Inteligentes',
+          description: "COM 783",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/teaching_1-smart_systems/";
+            },},{id: "projects-dinâmica-i",
+          title: 'Dinâmica I',
+          description: "EEK 243",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/teaching_2-dynamics_I/";
             },},{
         id: 'social-email',
         title: 'email',
