@@ -150,6 +150,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  teaching:
+    output: true
+    permalink: /:collection/:title/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -192,12 +195,11 @@ exclude:
   - vendor
   - _pages/blog.md
   - _pages/dropdown.md
-  - _pages/teaching.md
   - _pages/profiles.md
   - _pages/repositories.md
   - _posts/
   - _pages/projects.md
-  - _projects/
+#  - _projects/
 keep_files:
   - CNAME
   - .nojekyll
@@ -209,7 +211,7 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
+  #  - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
@@ -395,6 +397,7 @@ enable_tooltips: false # enables automatic tooltip links generated for each sect
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
+enable_teaching_categories: true # enables categorization of teaching into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Research
+permalink: /research/
 description: #A growing collection of your cool projects.
 nav: true
-nav_order: 4
+nav_order: 3
 display_categories: [Research Themes, Projects]
 horizontal: false
 ---

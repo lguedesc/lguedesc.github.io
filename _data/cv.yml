@@ -4,7 +4,7 @@
     - name: Full Name
       value: Luã Guedes Costa
     - name: Age
-      value: 31
+      value: 32
     - name: Languages
       value: Portuguese, English
 
@@ -119,6 +119,9 @@
 
     - title: Journal of Vibration Engineering & Technologies
       year: 2024
+
+    - title: Journal of the Brazilian Society of Mechanical Sciences and Engineering
+      year: 2025
 
     - title: NODYCON Conference
       year: 2025
