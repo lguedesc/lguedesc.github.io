@@ -68,9 +68,9 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 
 ---
 
-- Lista 1
-- Lista 2
-- Lista 3
+- Lista 1 (em breve)
+- Lista 2 (em breve)
+- Lista 3 (em breve)
 
 #### **Links Interessantes**
 
