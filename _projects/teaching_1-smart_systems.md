@@ -58,10 +58,23 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 
 ---
 
-1. [L. C. Brinson (1993) - One-Dimensional Constitutive Behaviour of Shape Memory Alloys.pdf](<assets/pdf/for_teaching/smart_systems/L.%20C.%20Brinson%20(1993)%20-%20One-Dimensional%20Constitutive%20Behaviour%20of%20Shape%20Memory%20Alloys.pdf>)
-2. [F. Falk (1980) - Model Free Energy, Mechanics and Thermodynamics of Shape Memory Alloys.pdf](<assets/pdf/for_teaching/smart_systems/F.%20Falk%20(1980)%20-%20Model%20Free%20Energy,%20Mechanics%20and%20Thermodynamics%20of%20Shape%20Memory%20Alloys.pdf>)
-3. [Lee et al. (2020) - 3D-Printed Programmable Tensengrity for Soft Robotics](<assets/pdf/for_teaching/smart_systems/Lee%20et%20al.%20(2020)%20-%203D-Printed%20Programmable%20Tensengrity%20for%20Soft%20Robotics.pdf>)
-4.
+<ol>
+  <li>
+    <a href="/assets/pdf/for_teaching/smart_systems/L.%20C.%20Brinson%20(1993)%20-%20One-Dimensional%20Constitutive%20Behaviour%20of%20Shape%20Memory%20Alloys.pdf" target="_blank" rel="noopener noreferrer">
+      L. C. Brinson (1993) - One-Dimensional Constitutive Behaviour of Shape Memory Alloys.pdf
+    </a>
+  </li>
+  <li>
+    <a href="/assets/pdf/for_teaching/smart_systems/F.%20Falk%20(1980)%20-%20Model%20Free%20Energy,%20Mechanics%20and%20Thermodynamics%20of%20Shape%20Memory%20Alloys.pdf" target="_blank" rel="noopener noreferrer">
+      F. Falk (1980) - Model Free Energy, Mechanics and Thermodynamics of Shape Memory Alloys.pdf
+    </a>
+  </li>
+  <li>
+    <a href="/assets/pdf/for_teaching/smart_systems/Lee%20et%20al.%20(2020)%20-%203D-Printed%20Programmable%20Tensengrity%20for%20Soft%20Robotics.pdf" target="_blank" rel="noopener noreferrer">
+      Lee et al. (2020) - 3D-Printed Programmable Tensengrity for Soft Robotics
+    </a>
+  </li>
+</ol>
 
 <div class="mt-5"></div>
 
