@@ -61,22 +61,32 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 <ol>
     <li>
         <a href="/assets/pdf/for_teaching/smart_systems/F.%20Falk%20(1980)%20-%20Model%20Free%20Energy,%20Mechanics%20and%20Thermodynamics%20of%20Shape%20Memory%20Alloys.pdf" target="_blank" rel="noopener noreferrer">
-        F. Falk (1980) - Model Free Energy, Mechanics and Thermodynamics of Shape Memory Alloys.pdf
+        F. Falk (1980) - Model Free Energy, Mechanics and Thermodynamics of Shape Memory Alloys
         </a>
     </li>
     <li>
         <a href="/assets/pdf/for_teaching/smart_systems/L.%20C.%20Brinson%20(1993)%20-%20One-Dimensional%20Constitutive%20Behaviour%20of%20Shape%20Memory%20Alloys.pdf" target="_blank" rel="noopener noreferrer">
-        L. C. Brinson (1993) - One-Dimensional Constitutive Behaviour of Shape Memory Alloys.pdf
+        L. C. Brinson (1993) - One-Dimensional Constitutive Behaviour of Shape Memory Alloys
         </a>
     </li>
     <li>
-        <a href="assets/pdf/for_teaching/smart_systems/duToit et al. (2005) - Design Considerations for MEMS-Scale Piezoelectric Mechanical Vibration Energy Harvesters.pdf" target="_blank" rel="noopener noreferrer">
-        duToit et al. (2005) - Design Considerations for MEMS-Scale Piezoelectric Mechanical Vibration Energy Harvesters.pdf
+        <a href="/assets/pdf/for_teaching/smart_systems/Paiva%20&%20Savi%20(2005)%20-%20An%20Overview%20of%20Constitutive%20Models%20for%20Shape%20Memory%20Alloys.pdf" target="_blank" rel="noopener noreferrer">
+        Paiva & Savi (2005) - An Overview of Constitutive Models for Shape Memory Alloys
+        </a>
+    </li>
+    <li>
+        <a href="/assets/pdf/for_teaching/smart_systems/duToit%20et%20al.%20(2005)%20-%20Design%20Considerations%20for%20MEMS-Scale%20Piezoelectric%20Mechanical%20Vibration%20Energy%20Harvesters.pdf" target="_blank" rel="noopener noreferrer">
+        duToit et al. (2005) - Design Considerations for MEMS-Scale Piezoelectric Mechanical Vibration Energy Harvesters
         </a>
     </li>
     <li>
         <a href="/assets/pdf/for_teaching/smart_systems/Lee%20et%20al.%20(2020)%20-%203D-Printed%20Programmable%20Tensengrity%20for%20Soft%20Robotics.pdf" target="_blank" rel="noopener noreferrer">
         Lee et al. (2020) - 3D-Printed Programmable Tensengrity for Soft Robotics
+        </a>
+    </li>
+        <li>
+        <a href="/assets/pdf/for_teaching/smart_systems/Hajiesmaili%20&%20Clarke%20(2019)%20-%20Reconfigurable%20Shape-Morphing%20Dielectric%20Elastomers%20Using%20Spatially%20Varying%20Electric%20Fields.pdf" target="_blank" rel="noopener noreferrer">
+        Hajiesmaili & Clarke (2019) - Reconfigurable Shape-Morphing Dielectric Elastomers Using Spatially Varying Electric Fields
         </a>
     </li>
 </ol>
@@ -100,3 +110,12 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 - [Wing Morphing (Michigan Engineering)](https://www.youtube.com/watch?v=GDqvhUhQbQE)
 - [PaveGen Energy Harvesting](https://www.youtube.com/watch?v=VD15-2Uriyc)
 - [3D-Printed Programmable Tensengrity for Soft Robotics](https://www.science.org/doi/suppl/10.1126/scirobotics.aay9024/suppl_file/aay9024_movie_s8.mp4)
+- [NASA’s Shape Memory Alloy (SMA) Rover Wheel](https://www.youtube.com/watch?v=2lv6Vs12jLc)
+- [Nitinol](https://www.youtube.com/watch?v=wI-qAxKJoSU&t=293s)
+- [Wing Folding with SMA](https://www.youtube.com/watch?v=RgpuReoirzk)
+- [Dielectric Elastomers](https://www.youtube.com/watch?v=PDqmGHHKkWw&list=PLzm5Rax7ovKhzCIhVVXhN9FLpAVj7xANm&index=3)
+- [Shape Morphing with Dielectric Elastomers](https://www.youtube.com/watch?v=EUl56-zMWiQ&list=PLzm5Rax7ovKhzCIhVVXhN9FLpAVj7xANm&index=7)
+- [Dielectric Elastomer Generator Principle](https://www.youtube.com/watch?v=62JQ3DPJ9ek)
+- [Dielectric Elastomer Generators](https://www.youtube.com/watch?v=wJ-FhS2b6Kg)
+- [Piezoelectricity](https://www.youtube.com/watch?v=wcJXA8IqYl8)
+- [Piezoelectricity in Bones](https://www.youtube.com/watch?v=rsmh__9Yv3o)
