@@ -84,9 +84,14 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
         Lee et al. (2020) - 3D-Printed Programmable Tensengrity for Soft Robotics
         </a>
     </li>
-        <li>
+    <li>
         <a href="/assets/pdf/for_teaching/smart_systems/Hajiesmaili%20&%20Clarke%20(2019)%20-%20Reconfigurable%20Shape-Morphing%20Dielectric%20Elastomers%20Using%20Spatially%20Varying%20Electric%20Fields.pdf" target="_blank" rel="noopener noreferrer">
         Hajiesmaili & Clarke (2019) - Reconfigurable Shape-Morphing Dielectric Elastomers Using Spatially Varying Electric Fields
+        </a>
+    </li>
+    <li>
+        <a href="/assets/pdf/for_teaching/smart_systems/Alù%20et%20al.%20(2025)%20-%20Roadmap%20on%20Embodying%20Mechano-Intelligence%20and%20Computing%20in%20Functional%20Materials%20and%20Structures.pdf" target="_blank" rel="noopener noreferrer">
+        Alù et al. (2025) - Roadmap on Embodying Mechano-Intelligence and Computing in Functional Materials and Structures
         </a>
     </li>
 </ol>
