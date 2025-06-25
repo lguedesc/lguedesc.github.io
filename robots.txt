@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://lguedesc.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://lgcosta.com/sitemap.xml
