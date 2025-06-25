@@ -106,6 +106,14 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 - Lista 2 (em breve)
 - Lista 3 (em breve)
 
+#### **Cronograma**
+
+---
+
+<a href="/assets/pdf/for_teaching/smart_systems/Cronograma_2025_2.pdf" target="_blank" rel="noopener noreferrer">
+    Cronograma (atualizado em 25/06/2025)
+</a>
+
 #### **Links Interessantes**
 
 ---
