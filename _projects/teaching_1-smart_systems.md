@@ -80,6 +80,11 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
         </a>
     </li>
     <li>
+        <a href="/assets/pdf/for_teaching/smart_systems/assets/pdf/for_teaching/smart_systems/Pelrine%20et%20al.%20(2000)%20-%20High-Speed%20Electrically%20Actuated%20Elastomers%20with%20Strain%20Greater%20than%20100%.pdf" target="_blank" rel="noopener noreferrer">
+        Pelrine et al. (2000) - High Speed Electrically Actuated Elastomers with Strain Greater than 100%
+        </a>
+    </li>
+    <li>
         <a href="/assets/pdf/for_teaching/smart_systems/Lee%20et%20al.%20(2020)%20-%203D-Printed%20Programmable%20Tensengrity%20for%20Soft%20Robotics.pdf" target="_blank" rel="noopener noreferrer">
         Lee et al. (2020) - 3D-Printed Programmable Tensengrity for Soft Robotics
         </a>
