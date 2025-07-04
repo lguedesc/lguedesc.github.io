@@ -51,6 +51,7 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 - J. N. Reddy (2013), "An Introduction to Continuum Mechanics", Cambridge University Press.
 - Morton E. Gurtin (1981), "An Introduction to Continuum Mechanics", Academic Press Inc.
 - J. Lemaitre, J. L. Chaboche (1990), "Mechanics of Solid Materials", Cambridge University Press.
+- M. A. Savi (2017), "Dinâmica Não-Linear e Caos", E-papers Serviços Editoriais Ltda.
 
 <div class="mt-5"></div>
 
