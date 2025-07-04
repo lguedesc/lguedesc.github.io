@@ -13,11 +13,12 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 1. Introdução
 2. Materiais Inteligentes e Suas Aplicações
 3. Revisão de Mecânica dos Meios Contínuos
-4. Modelagem e Simulação
+4. Revisão de Dinâmica Não Linear
+5. Modelagem e Simulação
    - Materiais Piezoelétricos
    - Materiais com Memória de Forma
    - Materiais Magnetoestrictivos
-5. Tópicos Especiais
+6. Tópicos Especiais
 
 <div class="mt-5"></div>
 
