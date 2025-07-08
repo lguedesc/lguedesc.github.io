@@ -111,6 +111,7 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 - [NASA’s Shape Memory Alloy (SMA) Rover Wheel](https://www.youtube.com/watch?v=2lv6Vs12jLc)
 - [Nitinol](https://www.youtube.com/watch?v=wI-qAxKJoSU&t=293s)
 - [Wing Folding with SMA](https://www.youtube.com/watch?v=RgpuReoirzk)
+- [Shape Memory Polymers](https://www.youtube.com/watch?v=abGAVzueSUc)
 - [Dielectric Elastomers](https://www.youtube.com/watch?v=PDqmGHHKkWw&list=PLzm5Rax7ovKhzCIhVVXhN9FLpAVj7xANm&index=3)
 - [Shape Morphing with Dielectric Elastomers](https://www.youtube.com/watch?v=EUl56-zMWiQ&list=PLzm5Rax7ovKhzCIhVVXhN9FLpAVj7xANm&index=7)
 - [Dielectric Elastomer Generator Principle](https://www.youtube.com/watch?v=62JQ3DPJ9ek)
