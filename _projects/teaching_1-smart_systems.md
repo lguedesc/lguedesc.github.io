@@ -12,8 +12,8 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 
 1. Introdução
 2. Materiais Inteligentes e Suas Aplicações
-3. Revisão de Mecânica dos Meios Contínuos
-4. Revisão de Dinâmica Não Linear
+3. Revisão de Dinâmica Não Linear
+4. Revisão de Mecânica dos Meios Contínuos
 5. Modelagem e Simulação
    - Materiais Piezoelétricos
    - Materiais com Memória de Forma
@@ -97,7 +97,7 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 
 ---
 
-[Cronograma (atualizado em 25/06/2025)](../../assets/pdf/for_teaching/smart_systems/Cronograma_2025_2.pdf){:target="\_blank" rel="noopener noreferrer"}
+[Cronograma (atualizado em 14/07/2025)](../../assets/pdf/for_teaching/smart_systems/Cronograma_2025_2.pdf){:target="\_blank" rel="noopener noreferrer"}
 
 #### **Links Interessantes**
 
