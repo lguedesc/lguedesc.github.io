@@ -118,3 +118,4 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 - [Dielectric Elastomer Generators](https://www.youtube.com/watch?v=wJ-FhS2b6Kg)
 - [Piezoelectricity](https://www.youtube.com/watch?v=wcJXA8IqYl8)
 - [Piezoelectricity in Bones](https://www.youtube.com/watch?v=rsmh__9Yv3o)
+- [Autovalores e Autovetores em Equações Diferenciais Lineares (Vídeos 14 a 20)](https://www.youtube.com/playlist?list=PLMrJAkhIeNNTYaOnVI3QpH7jgULnAmvPA)
