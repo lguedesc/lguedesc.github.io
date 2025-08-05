@@ -96,6 +96,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/9-DINAME_2025/";
+            },},{id: "news-2nd-school-of-engineering-in-smart-structures-eeei",
+          title: '📍 2nd School of Engineering in Smart Structures (EEEI)',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/10-EEEI_2025/";
             },},{id: "projects-mechanical-energy-harvesting",
           title: 'Mechanical Energy Harvesting',
           description: "A clean alternative to power standalone devices.",
