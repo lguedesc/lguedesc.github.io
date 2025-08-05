@@ -61,4 +61,5 @@ ramo da ciência que investiga a relação entre forças e movimentos. Trata-se 
 
 ---
 
+Local das aulas: Quartas e sextas, de 10h às 12h, no sala G-212.
 Cronograma (em breve)
