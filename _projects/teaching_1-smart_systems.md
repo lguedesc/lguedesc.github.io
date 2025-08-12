@@ -91,7 +91,6 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 
 - [Lista 1](../../assets/pdf/for_teaching/smart_systems/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
 - Lista 2 (em breve)
-- Lista 3 (em breve)
 
 #### **Cronograma**
 
@@ -99,7 +98,20 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 
 Local das aulas: Segundas e quartas, de 15h às 17h, no auditório do Mecanon (I-128D).
 
-[Cronograma (atualizado em 14/07/2025)](../../assets/pdf/for_teaching/smart_systems/Cronograma_2025_2.pdf){:target="\_blank" rel="noopener noreferrer"}
+- Entrega da Lista 1: 18/08
+- Entrega da Lista 2: 10/09
+- Avaliação: 10/09
+
+#### **Apresentações**
+
+---
+
+- [Tópico 1 - Introdução](../../assets/pdf/for_teaching/smart_systems/presentations/Tópico%201%20-%20Introdução.pdf)
+- [Tópico 2 - Materiais Inteligentes e Suas Aplicações - Piezoelétricos](../../assets/pdf/for_teaching/smart_systems/presentations/Tópico%202%20-%20Materiais%20Inteligentes%20e%20Suas%20Aplicações%20-%20Piezoelétricos.pdf)
+- [Tópico 3 - Materiais Inteligentes e Suas Aplicações - Elastômeros Dielétricos](../../assets/pdf/for_teaching/smart_systems/presentations/Tópico%203%20-%20Materiais%20Inteligentes%20e%20Suas%20Aplicações%20-%20Elastômeros%20Dielétricos.pdf)
+- [Tópico 4 - Materiais Inteligentes e Suas Aplicações - Magnetoestrictivos](../../assets/pdf/for_teaching/smart_systems/presentations/Tópico%204%20-%20Materiais%20Inteligentes%20e%20Suas%20Aplicações%20-%20Magnetoestrictivos.pdf)
+- [Tópico 5 - Materiais Inteligentes e Suas Aplicações - Materiais com Memória de Forma](../../assets/pdf/for_teaching/smart_systems/presentations/Tópico%205%20-%20Materiais%20Inteligentes%20e%20Suas%20Aplicações%20-%20Materiais%20com%20Memória%20de%20Forma.pdf)
+- [Tópico 6 - Revisão de Dinâmica Não Linear](../../assets/pdf/for_teaching/smart_systems/presentations/Tópico%206%20-%20Revisão%20de%20Dinâmica%20Não%20Linear.pdf)
 
 #### **Links Interessantes**
 
