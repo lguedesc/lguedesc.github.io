@@ -8,8 +8,7 @@ category: Graduação
 related_publications: false
 ---
 
-Esta disciplina aborda princípios e métodos da mecânica clássica,
-ramo da ciência que investiga a relação entre forças e movimentos. Trata-se da primeira disciplina de Dinâmica voltada especificamente à análise da dinâmica de partículas. O curso tem como objetivo fornecer uma formação sólida nos fundamentos da mecânica e desenvolver uma metodologia sistemática para a resolução de problemas envolvendo partículas.
+Esta disciplina aborda princípios e métodos da mecânica clássica, ramo da ciência que investiga a relação entre forças e movimentos. Trata-se da primeira disciplina de Dinâmica voltada especificamente à análise da dinâmica de partículas. O curso tem como objetivo fornecer uma formação sólida nos fundamentos da mecânica e desenvolver uma metodologia sistemática para a resolução de problemas envolvendo partículas.
 
 1. **Introdução**
    - Revisão histórica e modelagem de sistemas dinâmicos
@@ -61,5 +60,8 @@ ramo da ciência que investiga a relação entre forças e movimentos. Trata-se 
 
 ---
 
-Local das aulas: Quartas e sextas, de 10h às 12h, no sala G-212.
-Cronograma (em breve)
+Local das aulas: quartas e sextas, de 10h às 12h, na sala G-212.
+
+- Avaliação 1 (Cinemática): 22/10
+- Avaliação 2 (Dinâmica de Partículas e Abordagem Energética): 03/12
+- Avaliação Final e de Reposição (Todo o conteúdo): 12/12
