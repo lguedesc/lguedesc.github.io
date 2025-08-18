@@ -171,7 +171,10 @@ ul.task-list input[type="checkbox"] {
 
   .card-img {
     width: 100%;
-    padding-top: 1.25rem;
+    height: 100%;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    display: block;
   }
 
   .card-title {
@@ -686,6 +689,10 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
+    figure {
+      margin: 0;
+      padding: 0;
+    }
   }
 
   .col {
@@ -708,7 +715,6 @@ footer.sticky-bottom {
   }
 }
 
-// Teaching
 // Teaching
 .teaching {
   a {

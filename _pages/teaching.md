@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 permalink: /teaching/
-description: #A growing collection of your cool projects.
+description: I teach undergraduate and graduate courses at the Federal University of Rio de Janeiro, all in Brazilian Portuguese [🇧🇷].
 nav: true
 nav_order: 5
 display_categories: [Pós-Graduação, Graduação]
