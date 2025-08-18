@@ -25,10 +25,17 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "",
+          description: "I teach undergraduate and graduate courses at the Federal University of Rio de Janeiro, all in Brazilian Portuguese [🇧🇷].",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "This page features selected talks I have given at academic events.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -111,6 +118,11 @@ ninja.data = [{
           description: "Predicting the complexity of natural systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/research_2-nonlinear_dynamics/";
+            },},{id: "projects-eeei-colheita-de-energia-mecânica",
+          title: '[🇧🇷] EEEI - Colheita de Energia Mecânica',
+          description: "2ª Escola de Engenharia em Estruturas Inteligentes (EEEI)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/talks_1-EEEI/";
             },},{id: "projects-mecânica-de-sistemas-inteligentes",
           title: 'Mecânica de Sistemas Inteligentes',
           description: "COM 783",
