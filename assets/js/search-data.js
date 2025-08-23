@@ -115,7 +115,7 @@ ninja.data = [{
               window.location.href = "/projects/research_1-energy_harvesting/";
             },},{id: "projects-nonlinear-dynamics-and-chaos",
           title: 'Nonlinear Dynamics and Chaos',
-          description: "Predicting the complexity of natural systems.",
+          description: "Modeling, analysis and applications in complex systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/research_2-nonlinear_dynamics/";
             },},{id: "projects-eeei-colheita-de-energia-mecânica",
