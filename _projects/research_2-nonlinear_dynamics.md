@@ -1,18 +1,14 @@
 ---
 layout: page
 title: Nonlinear Dynamics and Chaos
-description: Predicting the complexity of natural systems.
+description: Modeling, analysis and applications in complex systems.
 img: assets/img/for_research/nonlinear_dynamics.png
 importance: 2
 category: Research Themes
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+A dynamical system is a set of elements whose state evolves over time according to fixed rules. One can think of it as a frame-by-frame description of reality, where each frame represents a state of the reality at a given moment. Nonlinear behavior emerges in scenarios where small causes can produce large effects. In this sense, nature is intrinsically nonlinear, and plenty of nonlinear dynamical systems are found in nature, which provides inspiration for design and innovation. Complex phenomena such as chaotic can arise in nonlinear systems, which...
 
     ---
     layout: page
