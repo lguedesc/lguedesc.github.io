@@ -5,7 +5,7 @@
 @use "sass:color";
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #{$almost-white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
@@ -41,6 +41,7 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+  --global-border-color: #{$border-color};
 
   #light-toggle-system {
     padding-left: 10px;
@@ -111,6 +112,7 @@ html[data-theme="dark"] {
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+  --global-border-color: #{$border-color-dark};
 
   .only-light {
     display: none;
