@@ -55,6 +55,15 @@ Esta disciplina aborda princípios e métodos da mecânica clássica, ramo da ci
 - [Lista 2](../../assets/pdf/for_teaching/dynamics_I/Lista%202.pdf){:target="\_blank" rel="noopener noreferrer"}
 - Lista 3 (em breve)
 
+##### **Resoluções de Exercícios**
+
+Abaixo encontram-se as resoluções parciais dos exercícios vistos em sala (lista 2). As soluções estão no formatadas de acordo com um notebook do Wolfram Mathematica.
+
+- [Sistema Tipo 1-2 (Questão 4 - Lista 2)](../../assets/pdf/for_teaching/dynamics_I/Sistema_1-2.pdf){:target="\_blank" rel="noopener noreferrer"}
+- [Sistema Tipo 3-1-3 (Questão 5 - Lista 2)](../../assets/pdf/for_teaching/dynamics_I/Sistema_3-1-3.pdf){:target="\_blank" rel="noopener noreferrer"}
+
+**<font color="red">Obs: utilize com cuidado pois as resoluções não foram revisadas e podem conter erros.</font>**
+
 #### **Cronograma**
 
 ---
