@@ -53,7 +53,7 @@ Esta disciplina aborda princípios e métodos da mecânica clássica, ramo da ci
 
 - [Lista 1](../../assets/pdf/for_teaching/dynamics_I/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
 - [Lista 2](../../assets/pdf/for_teaching/dynamics_I/Lista%202.pdf){:target="\_blank" rel="noopener noreferrer"}
-- Lista 3 (em breve)
+- [Lista 3](../../assets/pdf/for_teaching/dynamics_I/Lista%203.pdf){:target="\_blank" rel="noopener noreferrer"}
 
 ##### **Resoluções de Exercícios**
 
