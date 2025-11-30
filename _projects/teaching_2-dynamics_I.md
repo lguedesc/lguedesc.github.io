@@ -71,5 +71,5 @@ Abaixo encontram-se as resoluções parciais dos exercícios vistos em sala (lis
 Local das aulas: quartas e sextas, de 10h às 12h, na sala G-212.
 
 - Avaliação 1 (Cinemática): 10/10
-- Avaliação 2 (Dinâmica de Partículas e Abordagem Energética): 03/12
+- Avaliação 2 (Dinâmica de Partículas e Abordagem Energética): 05/12
 - Avaliação Final e de Reposição (Todo o conteúdo): 12/12
