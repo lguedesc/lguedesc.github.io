@@ -108,6 +108,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/10-EEEI_2025/";
+            },},{id: "news-abcm-springer-award",
+          title: '🏆 ABCM-Springer Award',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/11-ABCM_Springer_Award/";
+            },},{id: "news-cobem-2025",
+          title: '📍 COBEM 2025',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/12-COBEM_2025/";
             },},{id: "projects-mechanical-energy-harvesting",
           title: 'Mechanical Energy Harvesting',
           description: "A clean alternative to power standalone devices.",
