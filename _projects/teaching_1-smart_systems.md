@@ -10,10 +10,30 @@ related_publications: false
 
 Esta disciplina tem por objetivo introduzir os principais aspectos científicos e tecnológicos dos chamados sistemas inteligentes, com foco no comportamento de materiais que apresentam acoplamentos entre diferentes domínios físicos, como materiais piezoelétricos, magnetoestrictivos e com memória de forma. Busca-se oferecer uma base conceitual sólida sobre os fundamentos físicos, a fenomenologia que descreve o funcionamento desses materiais e suas principais aplicações no campo da engenharia.
 
+<div class="my-4"
+     style="display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fit, minmax(260px, max-content)); align-items: stretch;">
+  <div class="p-3 rounded-3 border d-flex flex-column"
+       style="background-color: var(--global-bg-color); color: var(--global-text-color); border-color: var(--global-border-color);">
+    <strong style="color: var(--global-text-color);">Horário e local das aulas</strong><br>
+    Segundas e quartas, de 15h às 17h<br>
+    Sala I-128D (Auditório do Mecanon)
+  </div>
+
+  <div class="p-3 rounded-3 border d-flex flex-column"
+       style="background-color: var(--global-bg-color); color: var(--global-text-color); border-color: var(--global-border-color);">
+    <strong style="color: var(--global-text-color);">Datas Importantes</strong><br>
+    Entrega da Lista 1: 18/08<br>
+    Entrega da Lista 2: 12/09<br>
+    Avaliação: 10/09<br>
+  </div>
+</div>
+
+#### **Conteúdo Programático**
+
 1. Introdução
-2. Materiais Inteligentes e Suas Aplicações
+2. Revisão de Mecânica dos Meios Contínuos
 3. Revisão de Dinâmica Não Linear
-4. Revisão de Mecânica dos Meios Contínuos
+4. Materiais Inteligentes e Suas Aplicações
 5. Modelagem e Simulação
    - Materiais Piezoelétricos
    - Materiais com Memória de Forma
@@ -91,16 +111,6 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 
 - [Lista 1](../../assets/pdf/for_teaching/smart_systems/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
 - [Lista 2](../../assets/pdf/for_teaching/smart_systems/Lista%202.pdf){:target="\_blank" rel="noopener noreferrer"}
-
-#### **Cronograma**
-
----
-
-Local das aulas: Segundas e quartas, de 15h às 17h, no auditório do Mecanon (I-128D).
-
-- Entrega da Lista 1: 18/08
-- Entrega da Lista 2: 12/09
-- Avaliação: 10/09
 
 #### **Apresentações**
 
