@@ -143,8 +143,8 @@ ninja.data = [{
           description: "EEK 243",
           section: "Projects",handler: () => {
               window.location.href = "/projects/teaching_2-dynamics_I/";
-            },},{id: "projects-métodos-matemáticos-equações-diferenciais",
-          title: 'Métodos Matemáticos: Equações Diferenciais',
+            },},{id: "projects-métodos-matemáticos",
+          title: 'Métodos Matemáticos',
           description: "COM 774",
           section: "Projects",handler: () => {
               window.location.href = "/projects/teaching_3-math_methods/";
