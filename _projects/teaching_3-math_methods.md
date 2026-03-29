@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Métodos Matemáticos: Equações Diferenciais"
+title: "Métodos Matemáticos"
 description: COM 774
 img: assets/img/for_teaching/nonlinear_dynamics.png
 importance: 2

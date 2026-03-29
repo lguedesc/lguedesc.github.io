@@ -38,16 +38,18 @@ Esta disciplina aborda princípios e métodos da mecânica clássica, ramo da ci
 2. **Fundamentos Matemáticos**
    - O conceito de tensor
    - Sistemas de coordenadas e transformações
+3. **Cinemática**
+   - Descrição do movimento
+   - Referenciais móveis
+   - Velocidade angular
    - Diferenciação de vetores em diferentes referenciais
-3. **Revisão de Forças e Momentos**
+   - Aceleração angular
+   - Velocidade e aceleração lineares
+   - Teoremas cinemáticos
+4. **Revisão de Forças e Momentos**
    - Representação de forças
    - Momento de uma força
    - Equilíbrio e diagramas de corpo livre
-4. **Cinemática**
-   - Descrição do movimento
-   - Referenciais móveis
-   - Velocidade e aceleração lineares e angulares
-   - Teoremas cinemáticos
 5. **Dinâmica da Partícula**
    - Leis de Newton
    - Equações de movimento
@@ -76,7 +78,7 @@ Esta disciplina aborda princípios e métodos da mecânica clássica, ramo da ci
 
 ---
 
-- Lista 1 (em breve)
+- [Lista 1](../../assets/pdf/for_teaching/dynamics_I/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
 - Lista 2 (em breve)
 - Lista 3 (em breve)
 
