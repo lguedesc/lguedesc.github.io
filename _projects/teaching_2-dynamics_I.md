@@ -78,9 +78,9 @@ Esta disciplina aborda princípios e métodos da mecânica clássica, ramo da ci
 
 ---
 
-- [Lista 1](../../assets/pdf/for_teaching/dynamics_I/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
-- Lista 2 (em breve)
-- Lista 3 (em breve)
+- [Lista 1: Análise Tensorial e Transformação de Coordenadas](../../assets/pdf/for_teaching/dynamics_I/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
+- Lista 2: Cinemática (em breve)
+- Lista 3: Dinâmica da Partícula (em breve)
 
 <!-- - [Lista 1](../../assets/pdf/for_teaching/dynamics_I/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
 - [Lista 2](../../assets/pdf/for_teaching/dynamics_I/Lista%202.pdf){:target="\_blank" rel="noopener noreferrer"}
