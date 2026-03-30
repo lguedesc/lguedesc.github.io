@@ -29,7 +29,7 @@ latest_posts:
 
 Hello there! 👋
 
-I am a Ph.D. in Mechanical Engineering and an Assistant Professor at the Federal University of Rio de Janeiro ([COPPE/UFRJ](https://coppe.ufrj.br)), affiliated with the Center for Nonlinear Mechanics ([Mecanon](http://mecanon.coppe.ufrj.br)). In addition, I hold both M.Sc. and B.Sc. degrees also in mechanical engineering.
+I am a Ph.D. in Mechanical Engineering and an Assistant Professor at the Federal University of Rio de Janeiro ([COPPE/UFRJ](https://coppe.ufrj.br)), affiliated with the Center for Nonlinear Mechanics ([Mecanon](http://mecanon.coppe.ufrj.br)).
 
 My current research is associated with nonlinear phenomena, including energy harvesting, smart materials and structures, nonlinear dynamics, multistability, and chaos. My expertise is complemented by a solid background in HPC, allowing me to tackle complex problems with precision and efficiency.
 
