@@ -70,19 +70,19 @@
     - title: ABCM-Springer Award
       institution: Brazilian Society of Mechanical Sciences and Engineering (ABCM) and Springer
       year: 2025
-      description: For the best Ph.D. thesis of 2024.
+      description: <a href="/assets/pdf/awards/abcm-springer_award.pdf" target="_blank">Award</a> for the best Ph.D. thesis of 2024.
 
     - title: ABCM Best Paper Award
       institution: Brazilian Society of Mechanical Sciences and Engineering (ABCM)
       year: 2024
       description:
-        - <a href="/assets/pdf/mecsol_award.pdf" target="_blank">Award</a> at the 9th International Symposium on Solid Mechanics (MECSOL)
+        - <a href="/assets/pdf/awards/mecsol_award.pdf" target="_blank">Award</a> at the 9th International Symposium on Solid Mechanics (MECSOL)
 
     - title: Best PhD Student Paper Award
       institution: Brazilian Society of Mechanical Sciences and Engineering (ABCM)
       year: 2023
       description:
-        - <a href="/assets/pdf/diname_award.pdf" target="_blank">Award</a> at XIX International Symposium on Dynamic Problems of Mechanics (DINAME)
+        - <a href="/assets/pdf/awards/diname_award.pdf" target="_blank">Award</a> at XIX International Symposium on Dynamic Problems of Mechanics (DINAME)
 
     - title: Champion of the Invent for the Planet
       institution: Texas A&M, USA
@@ -111,7 +111,7 @@
   type: time_table
   contents:
     - title: International Journal of Mechanical Sciences
-      year: 2021 - 2023
+      year: 2021 - 2024
 
     - title: Nonlinear Dynamics
       year: 2023 - 2024
@@ -130,6 +130,9 @@
 
     - title: European Journal of Mechanics - A/Solids
       year: 2025
+
+    - title: International Journal of Non-Linear Mechanics
+      year: 2026
 
     - title: International Nonlinear Dynamics Conference (NODYCON)
       year: 2025
