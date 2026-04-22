@@ -38,12 +38,11 @@ Esta disciplina aborda princípios e métodos da mecânica clássica, ramo da ci
 2. **Fundamentos Matemáticos**
    - O conceito de tensor
    - Sistemas de coordenadas e transformações
+   - Diferenciação de vetores em diferentes referenciais
 3. **Cinemática**
    - Descrição do movimento
    - Referenciais móveis
-   - Velocidade angular
-   - Diferenciação de vetores em diferentes referenciais
-   - Aceleração angular
+   - Velocidade e aceleração angulares
    - Velocidade e aceleração lineares
    - Teoremas cinemáticos
 4. **Revisão de Forças e Momentos**
@@ -74,12 +73,18 @@ Esta disciplina aborda princípios e métodos da mecânica clássica, ramo da ci
 - Ilmar F. Santos (2001), "Dinâmica de Sistemas Mecânicos", Makron Books.
 - Leonard Meirovitch (2010), "Methods of Analytical Dynamics", Dover Publications.
 
+#### **Material de Apoio**
+
+---
+
+- [Teorema do Transporte Cinemático](../../assets/pdf/for_teaching/dynamics_I/Teorema_do_transporte_cinematico.pdf){:target="\_blank" rel="noopener noreferrer"}
+
 #### **Listas de Exercício**
 
 ---
 
 - [Lista 1: Análise Tensorial e Transformação de Coordenadas](../../assets/pdf/for_teaching/dynamics_I/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
-- Lista 2: Cinemática (em breve)
+- [Lista 2: Cinemática](../../assets/pdf/for_teaching/dynamics_I/Lista%202.pdf){:target="\_blank" rel="noopener noreferrer"}
 - Lista 3: Dinâmica da Partícula (em breve)
 
 <!-- - [Lista 1](../../assets/pdf/for_teaching/dynamics_I/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
