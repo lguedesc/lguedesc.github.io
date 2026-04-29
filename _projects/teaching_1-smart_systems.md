@@ -15,16 +15,16 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
   <div class="p-3 rounded-3 border d-flex flex-column"
        style="background-color: var(--global-bg-color); color: var(--global-text-color); border-color: var(--global-border-color);">
     <strong style="color: var(--global-text-color);">Horário e local das aulas</strong><br>
-    Segundas e quartas, de 15h às 17h<br>
+    Segundas e quartas, de 13h às 15h<br>
     Sala I-128D (Auditório do Mecanon)
   </div>
 
   <div class="p-3 rounded-3 border d-flex flex-column"
        style="background-color: var(--global-bg-color); color: var(--global-text-color); border-color: var(--global-border-color);">
     <strong style="color: var(--global-text-color);">Datas Importantes</strong><br>
-    Entrega da Lista 1: 18/08<br>
-    Entrega da Lista 2: 12/09<br>
-    Avaliação: 10/09<br>
+    Entrega da Lista 1: 15/05<br>
+    <!-- Entrega da Lista 2: 12/09<br>
+    Avaliação: 10/09<br> -->
   </div>
 </div>
 
@@ -32,13 +32,12 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 
 1. Introdução
 2. Revisão de Mecânica dos Meios Contínuos
-3. Revisão de Dinâmica Não Linear
-4. Materiais Inteligentes e Suas Aplicações
-5. Modelagem e Simulação
+3. Materiais Inteligentes e Suas Aplicações
+4. Modelagem e Simulação
    - Materiais Piezoelétricos
    - Materiais com Memória de Forma
    - Materiais Magnetoestrictivos
-6. Tópicos Especiais
+5. Tópicos Especiais
 
 <div class="mt-5"></div>
 
@@ -110,19 +109,18 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 ---
 
 - [Lista 1](../../assets/pdf/for_teaching/smart_systems/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
-- [Lista 2](../../assets/pdf/for_teaching/smart_systems/Lista%202.pdf){:target="\_blank" rel="noopener noreferrer"}
 
 #### **Apresentações**
 
 ---
 
 - [Tópico 1 - Introdução](../../assets/pdf/for_teaching/smart_systems/presentations/Tópico%201%20-%20Introdução.pdf)
-- [Tópico 2 - Materiais Inteligentes e Suas Aplicações - Piezoelétricos](../../assets/pdf/for_teaching/smart_systems/presentations/Tópico%202%20-%20Materiais%20Inteligentes%20e%20Suas%20Aplicações%20-%20Piezoelétricos.pdf)
-- [Tópico 3 - Materiais Inteligentes e Suas Aplicações - Elastômeros Dielétricos](../../assets/pdf/for_teaching/smart_systems/presentations/Tópico%203%20-%20Materiais%20Inteligentes%20e%20Suas%20Aplicações%20-%20Elastômeros%20Dielétricos.pdf)
-- [Tópico 4 - Materiais Inteligentes e Suas Aplicações - Magnetoestrictivos](../../assets/pdf/for_teaching/smart_systems/presentations/Tópico%204%20-%20Materiais%20Inteligentes%20e%20Suas%20Aplicações%20-%20Magnetoestrictivos.pdf)
-- [Tópico 5 - Materiais Inteligentes e Suas Aplicações - Materiais com Memória de Forma](../../assets/pdf/for_teaching/smart_systems/presentations/Tópico%205%20-%20Materiais%20Inteligentes%20e%20Suas%20Aplicações%20-%20Materiais%20com%20Memória%20de%20Forma.pdf)
-- [Tópico 6 - Revisão de Dinâmica Não Linear](../../assets/pdf/for_teaching/smart_systems/presentations/Tópico%206%20-%20Revisão%20de%20Dinâmica%20Não%20Linear.pdf)
-- [Modelagem - Ligas com Memória de Forma](../../assets/pdf/for_teaching/smart_systems/presentations/Modelagem%20-%20Materiais%20com%20Memória%20de%20Forma.pdf)
+- Tópico 2 - Materiais Inteligentes e Suas Aplicações - Piezoelétricos
+- Tópico 3 - Materiais Inteligentes e Suas Aplicações - Elastômeros Dielétricos
+- Tópico 4 - Materiais Inteligentes e Suas Aplicações - Magnetoestrictivos
+- Tópico 5 - Materiais Inteligentes e Suas Aplicações - Materiais com Memória de Forma
+- Tópico 6 - Revisão de Dinâmica Não Linear
+- Modelagem - Ligas com Memória de Forma
 
 #### **Links Interessantes**
 
