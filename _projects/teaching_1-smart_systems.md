@@ -109,6 +109,7 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 ---
 
 - [Lista 1](../../assets/pdf/for_teaching/smart_systems/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
+- [Lista 2](../../assets/pdf/for_teaching/smart_systems/Lista%202.pdf){:target="\_blank" rel="noopener noreferrer"}
 
 #### **Apresentações**
 
