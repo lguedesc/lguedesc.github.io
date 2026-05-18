@@ -23,8 +23,8 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
        style="background-color: var(--global-bg-color); color: var(--global-text-color); border-color: var(--global-border-color);">
     <strong style="color: var(--global-text-color);">Datas Importantes</strong><br>
     Entrega da Lista 1: 15/05<br>
-    <!-- Entrega da Lista 2: 12/09<br>
-    Avaliação: 10/09<br> -->
+    Entrega da Lista 2: 13/06<br>
+    Avaliação: 10/06<br> -->
   </div>
 </div>
 
