@@ -24,7 +24,7 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
     <strong style="color: var(--global-text-color);">Datas Importantes</strong><br>
     Entrega da Lista 1: 15/05<br>
     Entrega da Lista 2: 13/06<br>
-    Avaliação: 10/06<br> -->
+    Avaliação: 08/06<br>
   </div>
 </div>
 
@@ -115,13 +115,11 @@ Esta disciplina tem por objetivo introduzir os principais aspectos científicos 
 
 ---
 
-- [Tópico 1 - Introdução](../../assets/pdf/for_teaching/smart_systems/presentations/Tópico%201%20-%20Introdução.pdf)
-- Tópico 2 - Materiais Inteligentes e Suas Aplicações - Piezoelétricos
-- Tópico 3 - Materiais Inteligentes e Suas Aplicações - Elastômeros Dielétricos
-- Tópico 4 - Materiais Inteligentes e Suas Aplicações - Magnetoestrictivos
-- Tópico 5 - Materiais Inteligentes e Suas Aplicações - Materiais com Memória de Forma
-- Tópico 6 - Revisão de Dinâmica Não Linear
-- Modelagem - Ligas com Memória de Forma
+- [Introdução](../../assets/pdf/for_teaching/smart_systems/presentations/Introdução.pdf)
+- [Materiais Inteligentes e Suas Aplicações - Piezoelétricos](../../assets/pdf/for_teaching/smart_systems/presentations/Piezoelétricos.pdf)
+- [Materiais Inteligentes e Suas Aplicações - Magnetoestrictivos](../../assets/pdf/for_teaching/smart_systems/presentations/Magnetoestrictivos.pdf)
+- [Materiais Inteligentes e Suas Aplicações - Materiais com Memória de Forma](../../assets/pdf/for_teaching/smart_systems/presentations/Materiais%20com%20Memória%20de%20Forma.pdf)
+- [Modelagem - Ligas com Memória de Forma](../../assets/pdf/for_teaching/smart_systems/presentations/Modelagem%20-%20Ligas%20SMA.pdf)
 
 #### **Links Interessantes**
 
