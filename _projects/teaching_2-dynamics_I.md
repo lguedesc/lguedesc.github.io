@@ -23,7 +23,7 @@ Esta disciplina aborda princípios e métodos da mecânica clássica, ramo da ci
        style="background-color: var(--global-bg-color); color: var(--global-text-color); border-color: var(--global-border-color);">
     <strong style="color: var(--global-text-color);">Datas Importantes</strong><br>
     Avaliação 1 (Cinemática): 15/05<br>
-    Avaliação 2 (Cinética e Abordagem Energética): 08/07<br>
+    Avaliação 2 (Abordagens Newtoniana e Energética): 08/07<br>
     Final       (Todo o conteúdo): 17/07
   </div>
 </div>
@@ -85,11 +85,7 @@ Esta disciplina aborda princípios e métodos da mecânica clássica, ramo da ci
 
 - [Lista 1: Análise Tensorial e Transformação de Coordenadas](../../assets/pdf/for_teaching/dynamics_I/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
 - [Lista 2: Cinemática](../../assets/pdf/for_teaching/dynamics_I/Lista%202.pdf){:target="\_blank" rel="noopener noreferrer"}
-- Lista 3: Dinâmica da Partícula (em breve)
-
-<!-- - [Lista 1](../../assets/pdf/for_teaching/dynamics_I/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
-- [Lista 2](../../assets/pdf/for_teaching/dynamics_I/Lista%202.pdf){:target="\_blank" rel="noopener noreferrer"}
-- [Lista 3](../../assets/pdf/for_teaching/dynamics_I/Lista%203.pdf){:target="\_blank" rel="noopener noreferrer"} -->
+- [Lista 3: Dinâmica da Partícula](../../assets/pdf/for_teaching/dynamics_I/Lista%203.pdf){:target="\_blank" rel="noopener noreferrer"}
 
 ##### **Resoluções de Exercícios**
 
