@@ -22,9 +22,9 @@ Esta disciplina aborda princípios e métodos da mecânica clássica, ramo da ci
   <div class="p-3 rounded-3 border d-flex flex-column"
        style="background-color: var(--global-bg-color); color: var(--global-text-color); border-color: var(--global-border-color);">
     <strong style="color: var(--global-text-color);">Datas Importantes</strong><br>
-    Avaliação 1 (Cinemática): 15/05<br>
-    Avaliação 2 (Abordagens Newtoniana e Energética): 08/07<br>
-    Final       (Todo o conteúdo): 17/07
+    Avaliação 1 (Cinemática): 07/10<br>
+    Avaliação 2 (Abordagens Newtoniana e Energética): 27/11<br>
+    Final       (Todo o conteúdo): 09/12
   </div>
 </div>
 
@@ -73,11 +73,11 @@ Esta disciplina aborda princípios e métodos da mecânica clássica, ramo da ci
 - Ilmar F. Santos (2001), "Dinâmica de Sistemas Mecânicos", Makron Books.
 - Leonard Meirovitch (2010), "Methods of Analytical Dynamics", Dover Publications.
 
-#### **Material de Apoio**
+<!-- #### **Material de Apoio**
 
 ---
 
-- [Teorema do Transporte Cinemático](../../assets/pdf/for_teaching/dynamics_I/Teorema_do_transporte_cinematico.pdf){:target="\_blank" rel="noopener noreferrer"}
+- [Teorema do Transporte Cinemático](../../assets/pdf/for_teaching/dynamics_I/Teorema_do_transporte_cinematico.pdf){:target="\_blank" rel="noopener noreferrer"} -->
 
 #### **Listas de Exercício**
 
