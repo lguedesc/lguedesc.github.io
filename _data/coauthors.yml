@@ -23,6 +23,10 @@
       ]
     url: https://scholar.google.com.br/citations?user=-LQgwx4AAAAJ&hl=en
 
+"dornelas":
+  - firstname: ["Vanderson", "Vanderson Marcio", "Vanderson M.", "Vanderson M", "V. M.", "V M"]
+    url: https://scholar.google.com/citations?hl=pt-BR&user=sRNovvQAAAAJ
+
 "caetano":
   - firstname: ["Virgilio", "Virgilio Junior", "Virgilio J.", "Virgilio J", "V. J.", "V J"]
     url: https://scholar.google.com/citations?hl=en&user=fEd4um8AAAAJ
@@ -55,3 +59,7 @@
   - firstname:
       ["Gabriel", "Gabriel Xavier", "Gabriel Xavier Gonçalves", "Gabriel X.", "Gabriel X", "Gabriel X. G.", "Gabriel X G", "G. X. G.", "G X G"]
     url: https://www.researchgate.net/profile/Gabriel-Borges-16
+
+"argôlo":
+  - firstname: ["André", "André Luis", "André Luis Leandro", "André Luis L.", "André Luis L", "André L. L.", "André L L", "A. L. L.", "A L L"]
+    url: http://lattes.cnpq.br/8741274991832384
