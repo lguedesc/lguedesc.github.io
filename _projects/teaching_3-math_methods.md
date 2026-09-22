@@ -75,6 +75,12 @@ Esta disciplina introduz as bases matemáticas fundamentais para modelagem e an�
 
 - [Teorema do Transporte Cinemático](../../assets/pdf/for_teaching/dynamics_I/Teorema_do_transporte_cinematico.pdf){:target="\_blank" rel="noopener noreferrer"} -->
 
+#### **Aulas**
+
+---
+
+- [Aula 1: Introdução e Motivação](../../assets/presentation/math_methods/Aula%201%20-%20Introdução%20e%20Motivação.ppsx){:target="\_blank" rel="noopener noreferrer"}
+
 #### **Listas de Exercício**
 
 ---
