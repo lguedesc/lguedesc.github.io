@@ -22,7 +22,7 @@ Esta disciplina aborda princípios e métodos da mecânica clássica, ramo da ci
   <div class="p-3 rounded-3 border d-flex flex-column"
        style="background-color: var(--global-bg-color); color: var(--global-text-color); border-color: var(--global-border-color);">
     <strong style="color: var(--global-text-color);">Datas Importantes</strong><br>
-    Avaliação 1 (Cinemática): 07/10<br>
+    Avaliação 1 (Cinemática): 16/10<br>
     Avaliação 2 (Abordagens Newtoniana e Energética): 27/11<br>
     Final       (Todo o conteúdo): 09/12
   </div>
