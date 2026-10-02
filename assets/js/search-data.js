@@ -98,8 +98,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/8-MECSOL_award/";
-            },},{id: "news-diname-2025",
-          title: '📍 DINAME 2025',
+            },},{id: "news-diname-2025-águas-de-lindóia-brazil",
+          title: '📍 DINAME 2025 - Águas de Lindóia, Brazil',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/9-DINAME_2025/";
@@ -113,11 +113,26 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/11-ABCM_Springer_Award/";
-            },},{id: "news-cobem-2025",
-          title: '📍 COBEM 2025',
+            },},{id: "news-cobem-2025-curibita-brazil",
+          title: '📍 COBEM 2025 - Curibita, Brazil',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/12-COBEM_2025/";
+            },},{id: "news-opensd-2026-winter-school-at-coppe-ufrj",
+          title: '📍 OpenSD 2026 -- Winter School at COPPE/UFRJ',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/13-OpenSD_2026/";
+            },},{id: "news-conem-2026-são-luís-brazil",
+          title: '📍 CONEM 2026 - São Luís, Brazil',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/14-CONEM_2026/";
+            },},{id: "news-italian-brazilian-workshop-on-metamaterials-and-smart-systems-petrópolis-brazil",
+          title: '📍 Italian-Brazilian Workshop on Metamaterials and Smart Systems - Petrópolis, Brazil',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/15-Italian-Brazilian-Workshop-on-Metamaterials-and-Smart-Systems/";
             },},{id: "projects-mechanical-energy-harvesting",
           title: 'Mechanical Energy Harvesting',
           description: "A clean alternative to power standalone devices.",
