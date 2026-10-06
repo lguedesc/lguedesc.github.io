@@ -80,8 +80,8 @@ Esta disciplina introduz as bases matemáticas fundamentais para modelagem e an�
 
 ---
 
-- [Aula 1](https://docs.google.com/presentation/d/1VGQzZJQfI4jjz34NL3vXUoJHtFr-xO7X/edit?usp=share_link&ouid=117555895668441874053&rtpof=true&sd=true){:target="\_blank" rel="noopener noreferrer"}
-- [Aula 2](https://docs.google.com/presentation/d/1m9LeCObIRL9vx0o_xgno3FznQEXITTKO/edit?usp=share_link&ouid=117555895668441874053&rtpof=true&sd=true){:target="\_blank" rel="noopener noreferrer"}
+- [Aula 1](https://drive.google.com/uc?export=download&id=1Fyx1YfgeN-Wp51MnHHtHmsNzh5cAMRNs){:target="\_blank" rel="noopener noreferrer"}
+- [Aula 2](https://drive.google.com/uc?export=download&id=11zU9xb8IX4U2bkbL3jAw0gI28B5GdRxn){:target="\_blank" rel="noopener noreferrer"}
 
 #### **Listas de Exercício**
 
