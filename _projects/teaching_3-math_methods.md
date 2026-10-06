@@ -68,6 +68,7 @@ Esta disciplina introduz as bases matemáticas fundamentais para modelagem e an�
 - C Ray Wylie & Louis C. Barret (1995), "Advanced Engineering Mathematics", McGraw-Hill, Inc.
 - G Strang (2014), "Differential Equations and Linear Algebra", Cambridge University Press.
 - Erwin Kreyszig (2011), "Advanced Engineering Mathematics",John Wiley & Sons.
+- Elon L Lima (2014), "Álgebra Linear", IMPA.
 
 <!-- #### **Material de Apoio**
 
@@ -79,7 +80,8 @@ Esta disciplina introduz as bases matemáticas fundamentais para modelagem e an�
 
 ---
 
-- [Aula 1: Introdução e Motivação](../../assets/presentation/math_methods/Aula%201%20-%20Introdução%20e%20Motivação.ppsx){:target="\_blank" rel="noopener noreferrer"}
+- [Aula 1](https://docs.google.com/presentation/d/1VGQzZJQfI4jjz34NL3vXUoJHtFr-xO7X/edit?usp=share_link&ouid=117555895668441874053&rtpof=true&sd=true){:target="\_blank" rel="noopener noreferrer"}
+- [Aula 2](https://docs.google.com/presentation/d/1m9LeCObIRL9vx0o_xgno3FznQEXITTKO/edit?usp=share_link&ouid=117555895668441874053&rtpof=true&sd=true){:target="\_blank" rel="noopener noreferrer"}
 
 #### **Listas de Exercício**
 
