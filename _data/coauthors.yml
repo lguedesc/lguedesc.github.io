@@ -27,9 +27,17 @@
   - firstname: ["Vanderson", "Vanderson Marcio", "Vanderson M.", "Vanderson M", "V. M.", "V M"]
     url: https://scholar.google.com/citations?hl=pt-BR&user=sRNovvQAAAAJ
 
+"adeodato":
+  - firstname: ["Arthur", "A.", "A"]
+    url: https://scholar.google.com/citations?hl=en&user=WvzNt64AAAAJ
+
 "caetano":
   - firstname: ["Virgilio", "Virgilio Junior", "Virgilio J.", "Virgilio J", "V. J.", "V J"]
     url: https://scholar.google.com/citations?hl=en&user=fEd4um8AAAAJ
+
+"monteiro junior":
+  - firstname: ["Paulo", "Paulo Cesar", "Paulo Cesar da Camara", "Paulo C.", "Paulo C", "Paulo C. C.", "Paulo C C", "P. C. C.", "P C C"]
+    url: http://lattes.cnpq.br/6442137994711248
 
 "reis":
   - firstname:
@@ -47,10 +55,6 @@
       ]
     url: https://www.researchgate.net/profile/Eduardo-Reis-13
 
-"adeodato":
-  - firstname: ["Arthur", "A.", "A"]
-    url: https://scholar.google.com/citations?hl=en&user=WvzNt64AAAAJ
-
 "duarte":
   - firstname: ["Brenno", "Brenno Tavares", "Breno T.", "Breno T", "B. T.", "B T"]
     url: https://www.researchgate.net/profile/Brenno-Duarte
@@ -60,6 +64,33 @@
       ["Gabriel", "Gabriel Xavier", "Gabriel Xavier Gonçalves", "Gabriel X.", "Gabriel X", "Gabriel X. G.", "Gabriel X G", "G. X. G.", "G X G"]
     url: https://www.researchgate.net/profile/Gabriel-Borges-16
 
-"argôlo":
+"argolo":
   - firstname: ["André", "André Luis", "André Luis Leandro", "André Luis L.", "André Luis L", "André L. L.", "André L L", "A. L. L.", "A L L"]
     url: http://lattes.cnpq.br/8741274991832384
+
+"melo":
+  - firstname:
+      ["Joyce", "Joyce Cristine", "Joyce Cristine Pereira", "Joyce Cristine P.", "Joyce Cristine P", "Joyce C. P.", "Joyce C P", "J. C. P.", "J C P"]
+    url: http://lattes.cnpq.br/3619461618075775
+
+"jesus":
+  - firstname:
+      [
+        "César",
+        "César Augusto",
+        "César Augusto Oliveira",
+        "César Augusto Oliveira Gonçalves",
+        "César A.",
+        "César A",
+        "César A. O.",
+        "César A O",
+        "César A. O. G.",
+        "César A O G",
+        "C. A. O. G.",
+        "C A O G",
+      ]
+    url: http://lattes.cnpq.br/6413208357560518
+
+"salvador":
+  - firstname: ["Kevin", "Kevin da Cruz", "Kevin C.", "Kevin C", "K. C.", "K C"]
+    url: http://lattes.cnpq.br/5824864124039141
