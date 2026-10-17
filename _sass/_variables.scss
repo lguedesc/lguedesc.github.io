@@ -27,19 +27,7 @@ $yellow-color: #efcc00 !default;
 $orange-color-dark: #d35400 !default;
 $purple-color-dark: #7d3c98 !default;
 $purple-color-alt: #550096 !default;
-$orange-color-mecanon: #ad561b !default;
-$paper-color: #faf8f5 !default;
-$ink-color: #1f1d1a !default;
-$ink-color-light: #6b6560 !default;
-$paper-border-color: #e8e3dc !default;
-// Dark (primary) palette
-$charcoal-color: #161412 !default;
-$charcoal-surface-color: #201d1a !default;
-$charcoal-elevated-color: #2a2622 !default;
-$charcoal-border-color: #2e2a26 !default;
-$ivory-color: #ece6df !default;
-$ivory-color-light: #a39a90 !default;
-$copper-color: #e8894a !default;
+$orange-color-mecanon: #d76c23 !default;
 $almost_white-color: #f9f9f9 !default;
 
 $grey-color: #828282 !default;
@@ -55,7 +43,7 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($orange-color-mecanon, 0.05);
+$code-bg-color-light: rgba($purple-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
