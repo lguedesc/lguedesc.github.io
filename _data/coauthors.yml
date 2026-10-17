@@ -39,6 +39,10 @@
   - firstname: ["Paulo", "Paulo Cesar", "Paulo Cesar da Camara", "Paulo C.", "Paulo C", "Paulo C. C.", "Paulo C C", "P. C. C.", "P C C"]
     url: http://lattes.cnpq.br/6442137994711248
 
+"silva":
+  - firstname: ["João", "João Marins", "João M.", "João M", "J. M.", "J M"]
+    url: http://lattes.cnpq.br/3317698371493019
+
 "reis":
   - firstname:
       [

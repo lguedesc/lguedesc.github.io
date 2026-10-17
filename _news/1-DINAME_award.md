@@ -4,6 +4,7 @@ title: 🏆 I'm honored to announce that I received the award for the best PhD s
 date: 2023-03-17 15:59:00-0400
 inline: false
 related_posts: false
+lang: en
 ---
 
 Many times, I heard stories of my colleagues about how nice and unique the past DINAME conferences were, but I had experience it myself to understand. This was the first time I attended to DINAME, and every single detail of it impressed me. It was held at a resort in the lovely and small city of [Pirenópolis](https://en.wikipedia.org/wiki/Pirenópolis), located in the countryside of the state of Goiás, Brazil. I attended the conference with our research group, composed by members of [UFRJ](https://coppe.ufrj.br), [UFF](https://www.uff.br) and [UERJ](http://www.iprj.uerj.br). The first impressive aspect was the magnificent structure of the resort. It is a quiet and relaxing place, well integrated with the nature around. The private rooms were located at different small houses scattered around the environment, connected by small stone paths. At the center, there was a great swimming pool with a cocktail bar at the middle of it, and a couple of water slides around the pool. In my view, it was a great choice as it creates a unique, relaxing vibe for the conference.

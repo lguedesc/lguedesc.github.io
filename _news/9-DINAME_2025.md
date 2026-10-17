@@ -4,6 +4,7 @@ title: 📍 DINAME 2025 - Águas de Lindóia, Brazil
 date: 2025-03-14 15:59:00-0400
 inline: false
 related_posts: false
+lang: en
 ---
 
 This week I had the opportunity to attend DINAME 2025, and what an amazing event! 🔥

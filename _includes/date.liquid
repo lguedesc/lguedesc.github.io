@@ -1,0 +1,19 @@
+{%- assign t = site.data.strings[site.active_lang] | default: site.data.strings.en -%}
+{%- assign m = include.date | date: '%-m' | minus: 1 -%}
+{%- if include.format == 'long' -%}
+  {%- if site.active_lang == 'pt-br' -%}
+    {{ include.date | date: '%-d' }} de {{ t.months_full[m] }} de {{ include.date | date: '%Y' }}
+  {%- else -%}
+    {{ t.months_full[m] }}
+    {{ include.date | date: '%d' }}, {{ include.date | date: '%Y' }}
+  {%- endif -%}
+{%- else -%}
+  {%- if site.active_lang == 'pt-br' -%}
+    {{ include.date | date: '%d' }}
+    {{ t.months[m] }}
+    {{ include.date | date: '%Y' }}
+  {%- else -%}
+    {{ t.months[m] }}
+    {{ include.date | date: '%d' }}, {{ include.date | date: '%Y' }}
+  {%- endif -%}
+{%- endif -%}

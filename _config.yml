@@ -223,6 +223,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-polyglot
 
 # Sitemap settings
 defaults:
@@ -380,6 +381,15 @@ imagemagick:
 #   Options: "auto", "eager", "lazy"
 #   See https://web.dev/browser-level-image-lazy-loading/ for more information.
 lazy_loading_images: true # enables lazy loading of images (recommended)
+
+# -----------------------------------------------------------------------------
+# Multiple Languages (Polyglot)
+# -----------------------------------------------------------------------------
+
+languages: ["en", "pt-br"]
+default_lang: "en"
+exclude_from_localization: ["assets", "robots.txt", "favicon"]
+parallel_localization: false # Safer with jekyll-scholar and other plugins
 
 # -----------------------------------------------------------------------------
 # Optional Features

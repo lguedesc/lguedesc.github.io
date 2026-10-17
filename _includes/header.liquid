@@ -125,6 +125,27 @@
               </button>
             </li>
           {% endif %}
+          {% if site.languages.size > 1 %}
+            <!-- Language switcher -->
+            {% for tongue in site.languages %}
+              {% if tongue != site.active_lang %}
+                <li class="nav-item">
+                  <a
+                    id="lang-toggle"
+                    class="nav-link"
+                    title="{% if tongue == 'pt-br' %}Ver em português{% else %}View in English{% endif %}"
+                    aria-label="{% if tongue == 'pt-br' %}Ver em português{% else %}View in English{% endif %}"
+                    {% static_href -%}
+                    href="{% if tongue == site.default_lang %}{{ site.baseurl }}{{ page.url }}{% else %}{{ site.baseurl }}/{{ tongue }}{{ page.url }}{% endif %}"
+                    {% endstatic_href %}
+                  >
+                    <i class="ti ti-world"></i>
+                    {% if tongue == 'pt-br' %}PT{% else %}EN{% endif %}
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">

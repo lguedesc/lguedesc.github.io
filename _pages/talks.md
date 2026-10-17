@@ -7,6 +7,7 @@ nav: true
 nav_order: 6
 display_categories: [2025]
 horizontal: true
+lang: en
 ---
 
 <div class="projects">

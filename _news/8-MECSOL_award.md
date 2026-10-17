@@ -4,11 +4,12 @@ title: 🏆 I'm honored to announce that I received the ABCM Best Paper Award at
 date: 2024-10-23 15:59:00-0400
 inline: false
 related_posts: false
+lang: en
 ---
 
 I'm deeply honored to share that our paper entitled "Mechanical Energy Multi-Harvesting: On the Performance Enhancement of Mechanical Energy Harvesters" received the [ABCM](https://abcm.org.br) Best Paper Award at the 9th International Symposium on Solid Mechanics (MECSOL 2024)!
 
-The conference tool place at the lovely and relaxing campus of [Federal University of Santa Catarina](https://ufsc.br), in Florianópolis — one of the most remarkable cities in southern Brazil.
+The conference took place at the lovely and relaxing campus of [Federal University of Santa Catarina](https://ufsc.br), in Florianópolis — one of the most remarkable cities in southern Brazil.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

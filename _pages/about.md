@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+lang: en
 subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
@@ -33,6 +34,6 @@ I am a Ph.D. in Mechanical Engineering and an Assistant Professor at the Federal
 
 My current research is associated with nonlinear phenomena, including energy harvesting, smart materials and structures, nonlinear dynamics, multistability, and chaos.
 
-You can contact me via e-mail, researchgate or linkedin.
+You can contact me via e-mail, Researchgate or Linkedin.
 
 <!-- My expertise is complemented by a solid background in HPC, allowing me to tackle complex problems with precision and efficiency. -->

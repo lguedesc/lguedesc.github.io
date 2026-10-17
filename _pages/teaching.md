@@ -7,6 +7,7 @@ nav: true
 nav_order: 5
 display_categories: [Pós-Graduação, Graduação]
 horizontal: false
+lang: en
 ---
 
 <!-- pages/projects.md -->

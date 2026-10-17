@@ -4,9 +4,10 @@ title: I defended my qualifying exam today!
 date: 2023-11-10 16:10:00-0400
 inline: false
 related_posts: false
+lang: en
 ---
 
-Today marked a significant milestone as I defended my qualifying exam on the path to obtaining my PhD. The topic is on the analysis of energy harvesters using a nonlinear dynamics perspective. I'm very grateful for the insightful feedback and constructive criticism received from my esteemed evaluators. Excited for the next steps in this academic journey!
+Today marked a significant milestone as I defended my qualifying exam on the path to obtaining my PhD. The topic is on the analysis of energy harvesters using a nonlinear dynamics perspective. I'm very grateful for the insightful feedback and constructive criticism received from my esteemed evaluators. Excited about the next steps in this academic journey!
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

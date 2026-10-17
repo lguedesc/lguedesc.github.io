@@ -1,0 +1,160 @@
+- title: Informações Gerais
+  type: map
+  contents:
+    - name: Nome
+      value: Luã Guedes Costa
+    - name: Idade
+      value: 33
+    - name: Idiomas
+      value: Português, Inglês
+
+- title: Experiência
+  type: time_table
+  contents:
+    - title: Professor Assistente
+      institution: Universidade Federal do Rio de Janeiro (COPPE/UFRJ), Brasil
+      year: 2025 - atual
+
+    - title: Pesquisador de Pós-Doutorado
+      institution: Centro de Mecânica Não-Linear, Universidade Federal do Rio de Janeiro (COPPE/UFRJ), Brasil
+      year: 2024 - 2025
+      description:
+        - Projeto, desenvolvimento e análise de novos sistemas e estruturas inteligentes não-lineares.
+        - Desenvolvimento de pacote de software de alto desempenho para simulação de sistemas dinâmicos.
+
+    - title: Pesquisador de Doutorado
+      institution: Centro de Mecânica Não-Linear, Universidade Federal do Rio de Janeiro (COPPE/UFRJ), Brasil
+      year: 2020 - 2024
+      description:
+        - title: Projeto, desenvolvimento e análise de coletores de energia não-lineares.
+          contents:
+            - Desenvolvimento de um arcabouço teórico de dinâmica não-linear.
+            - Projeto de novos coletores de energia compactos e multidirecionais.
+
+    - title: Cofundador e Sócio
+      institution: Tupan Acessibilidade
+      year: 2020 - 2022
+      description:
+        - Cocriador do sistema EVA, um dispositivo que auxilia pessoas com deficiência visual a se locomoverem de forma independente.
+
+    - title: Assistente de Pesquisa
+      institution: Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ), Brasil
+      year: 2018 - 2020
+      description:
+        - Análise de coletores de energia piezoelétricos biestáveis por meio de modelos de ordem reduzida
+
+    - title: Bolsista de Iniciação Científica
+      institution: Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ), Brasil
+      year: 2017 - 2018
+      description:
+        - Análise de coletores de energia piezoelétricos biestáveis pelo método dos elementos finitos
+
+- title: Formação Acadêmica
+  type: time_table
+  contents:
+    - title: Doutorado em Engenharia Mecânica
+      institution: Universidade Federal do Rio de Janeiro (UFRJ), Brasil
+      year: 2020 - 2024
+
+    - title: Mestrado em Engenharia Mecânica e Tecnologia de Materiais
+      institution: Centro Federal de Educação Celso Suckow da Fonseca (CEFET/RJ), Brasil
+      year: 2018 - 2020
+
+    - title: Graduação em Engenharia Mecânica
+      institution: Centro Federal de Educação Celso Suckow da Fonseca (CEFET/RJ), Brasil
+      year: 2011 - 2017
+
+- title: Prêmios e Distinções
+  type: time_table
+  contents:
+    - title: Prêmio ABCM-Springer
+      institution: Associação Brasileira de Engenharia e Ciências Mecânicas (ABCM) e Springer
+      year: 2025
+      description: <a href="/assets/pdf/awards/abcm-springer_award.pdf" target="_blank">Prêmio</a> de melhor tese de doutorado de 2024.
+
+    - title: Prêmio ABCM de Melhor Artigo
+      institution: Associação Brasileira de Engenharia e Ciências Mecânicas (ABCM)
+      year: 2024
+      description:
+        - <a href="/assets/pdf/awards/mecsol_award.pdf" target="_blank">Prêmio</a> no 9th International Symposium on Solid Mechanics (MECSOL)
+
+    - title: Prêmio de Melhor Artigo em Nível Doutorado
+      institution: Associação Brasileira de Engenharia e Ciências Mecânicas (ABCM)
+      year: 2023
+      description:
+        - <a href="/assets/pdf/awards/diname_award.pdf" target="_blank">Prêmio</a> no XIX International Symposium on Dynamic Problems of Mechanics (DINAME)
+
+    - title: Vencedor do Invent for the Planet
+      institution: Texas A&M, EUA
+      year: 2019
+      description:
+        - <a href="https://engineering.tamu.edu/news/2021/02/texas-am-invent-for-the-planet-winners-launch-company.html">Prêmio</a> pela invenção de um dispositivo que auxilia pessoas com deficiência visual a se locomoverem, substituindo a bengala.
+
+- title: Formação Complementar
+  type: time_table
+  contents:
+    - title: School of Advanced Sciences on Nonlinear Dynamics
+      institution: Universidade de São Paulo (USP), Brasil
+      year: 2019
+
+    - title: Oratória
+      institution: Curso de Oratória Rogéria Guida, Rio de Janeiro, Brasil
+      year: 2017
+
+    - title: Intercâmbio de Graduação em Engenharia Mecânica
+      institution: Dublin Institute of Technology, Irlanda
+      year: 2015 - 2016
+      description:
+        - Intercâmbio acadêmico de dois semestres com foco em engenharia auxiliada por computador (CAE) e empreendedorismo para engenheiros.
+
+- title: Revisor de Periódicos
+  type: time_table
+  contents:
+    - title: International Journal of Mechanical Sciences
+      year: 2021 - 2024
+
+    - title: Nonlinear Dynamics
+      year: 2023 - 2024
+
+    - title: Journal of Vibration and Control
+      year: 2020 - 2022
+
+    - title: Journal of Computational and Nonlinear Dynamics
+      year: 2023 - 2024
+
+    - title: Journal of Vibration Engineering & Technologies
+      year: 2024
+
+    - title: Journal of the Brazilian Society of Mechanical Sciences and Engineering
+      year: 2025
+
+    - title: European Journal of Mechanics - A/Solids
+      year: 2025
+
+    - title: International Journal of Non-Linear Mechanics
+      year: 2026
+
+    - title: International Nonlinear Dynamics Conference (NODYCON)
+      year: 2025
+
+- title: Competências
+  type: nested_list
+  contents:
+    - title: Linguagens de Programação
+      items:
+        - C
+        - Python
+        - Matlab
+        - Wolfram Mathematica
+        - Bash
+
+    - title: Software
+      items:
+        - ANSYS APDL
+
+    - title: Bibliotecas
+      items:
+        - OpenMP
+        - Pandas
+        - Numpy
+        - Matplotlib

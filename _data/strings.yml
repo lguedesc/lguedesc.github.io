@@ -1,0 +1,17 @@
+en:
+  news: News
+  latest_posts: Latest Posts
+  latest_publications: Latest Publications
+  bib_search: Type to filter
+  last_updated: Site last updated
+  months_full: [January, February, March, April, May, June, July, August, September, October, November, December]
+  months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+
+pt-br:
+  news: Notícias
+  latest_posts: Últimas Postagens
+  latest_publications: Publicações Recentes
+  bib_search: Digite para filtrar
+  last_updated: Última atualização
+  months_full: [janeiro, fevereiro, março, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro]
+  months: [jan., fev., mar., abr., mai., jun., jul., ago., set., out., nov., dez.]

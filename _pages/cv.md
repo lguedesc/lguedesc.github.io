@@ -2,6 +2,7 @@
 layout: cv
 permalink: /cv/
 title: CV
+lang: en
 nav: true
 nav_order: 7
 cv_pdf: CV/lgcosta_CV.pdf # you can also use external links here
