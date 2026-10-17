@@ -1,5 +1,6 @@
 ---
 layout: page
+collection: teaching
 title: Ensino
 permalink: /teaching/
 description: Ministro disciplinas de graduação e pós-graduação na Universidade Federal do Rio de Janeiro, todas ministradas em português do brasil [🇧🇷].
@@ -18,7 +19,7 @@ lang: pt-br
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign categorized_projects = site[page.collection] | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
@@ -42,7 +43,7 @@ lang: pt-br
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_projects = site[page.collection] | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 

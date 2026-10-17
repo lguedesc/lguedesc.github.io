@@ -1,5 +1,6 @@
 ---
 layout: page
+collection: talks
 title: Apresentações
 permalink: /talks/
 description: Nesta página, você encontra uma seleção de palestras e apresentações que realizei em eventos acadêmicos.
@@ -17,7 +18,7 @@ lang: pt-br
     <a id="{{ category }}" href=".#{{ category }}">
       <h2 class="category">{{ category }}</h2>
     </a>
-    {% assign categorized_projects = site.projects | where: "category", category %}
+    {% assign categorized_projects = site[page.collection] | where: "category", category %}
     {% assign sorted_projects = categorized_projects | sort: "importance" %}
     {% if page.horizontal %}
       <div class="container-fluid px-0">
@@ -37,7 +38,7 @@ lang: pt-br
   {% endfor %}
 {% else %}
   <!-- Display projects without categories -->
-  {% assign sorted_projects = site.projects | sort: "importance" %}
+  {% assign sorted_projects = site[page.collection] | sort: "importance" %}
   {% if page.horizontal %}
     <div class="container-fluid px-0">
       <div class="row g-0 row-cols-1">
