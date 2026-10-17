@@ -119,7 +119,7 @@ ninja.data = [{
           section: "News",handler: () => {
               window.location.href = "/news/12-COBEM_2025/";
             },},{id: "news-opensd-2026-winter-school-at-coppe-ufrj",
-          title: '📍 OpenSD 2026 -- Winter School at COPPE/UFRJ',
+          title: '📍 OpenSD 2026 - Winter School at COPPE/UFRJ',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/13-OpenSD_2026/";
