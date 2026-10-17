@@ -5,6 +5,15 @@ en:
   bib_search: Type to filter
   last_updated: Site last updated
   months_full: [January, February, March, April, May, June, July, August, September, October, November, December]
+  citations: Citations
+  h_index: h-index
+  journal_papers: Journal papers
+  conference_papers: Conference papers
+  source: Source
+  citations_by_source: Citations by source
+  citations_per_year: Citations per year
+  partial_year: partial
+  metrics_updated: Metrics updated on
   months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
 
 pt-br:
@@ -14,4 +23,13 @@ pt-br:
   bib_search: Digite para filtrar
   last_updated: Última atualização
   months_full: [janeiro, fevereiro, março, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro]
+  citations: Citações
+  h_index: Índice h
+  journal_papers: Artigos em periódicos
+  conference_papers: Artigos em congressos
+  source: Fonte
+  citations_by_source: Citações por fonte
+  citations_per_year: Citações por ano
+  partial_year: parcial
+  metrics_updated: Métricas atualizadas em
   months: [jan., fev., mar., abr., mai., jun., jul., ago., set., out., nov., dez.]
