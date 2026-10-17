@@ -133,36 +133,36 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/15-Italian-Brazilian-Workshop-on-Metamaterials-and-Smart-Systems/";
-            },},{id: "projects-mechanical-energy-harvesting",
+            },},{id: "research-mechanical-energy-harvesting",
           title: 'Mechanical Energy Harvesting',
           description: "A clean alternative to power standalone devices.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/research_1-energy_harvesting/";
-            },},{id: "projects-nonlinear-dynamics-and-chaos",
+          section: "Research",handler: () => {
+              window.location.href = "/research/energy_harvesting/";
+            },},{id: "research-nonlinear-dynamics-and-chaos",
           title: 'Nonlinear Dynamics and Chaos',
           description: "Modeling, analysis and applications in complex systems.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/research_2-nonlinear_dynamics/";
-            },},{id: "projects-eeei-colheita-de-energia-mecânica",
+          section: "Research",handler: () => {
+              window.location.href = "/research/nonlinear_dynamics/";
+            },},{id: "talks-eeei-colheita-de-energia-mecânica",
           title: '[🇧🇷] EEEI - Colheita de Energia Mecânica',
           description: "2ª Escola de Engenharia em Estruturas Inteligentes (EEEI)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/talks_1-EEEI/";
-            },},{id: "projects-mecânica-de-sistemas-inteligentes",
-          title: 'Mecânica de Sistemas Inteligentes',
-          description: "COM 783",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/teaching_1-smart_systems/";
-            },},{id: "projects-dinâmica-i",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/EEEI/";
+            },},{id: "teaching-dinâmica-i",
           title: 'Dinâmica I',
           description: "EEK 243",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/teaching_2-dynamics_I/";
-            },},{id: "projects-métodos-matemáticos",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/dynamics_I/";
+            },},{id: "teaching-métodos-matemáticos",
           title: 'Métodos Matemáticos',
           description: "COM 774",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/teaching_3-math_methods/";
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/math_methods/";
+            },},{id: "teaching-mecânica-de-sistemas-inteligentes",
+          title: 'Mecânica de Sistemas Inteligentes',
+          description: "COM 783",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/smart_systems/";
             },},{
         id: 'social-email',
         title: 'email',
