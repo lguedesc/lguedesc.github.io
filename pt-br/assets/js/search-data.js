@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-ensino",
           title: "Ensino",
-          description: "Ministro disciplinas de graduação e pós-graduação na Universidade Federal do Rio de Janeiro, todas ministradas em português do brasil [🇧🇷].",
+          description: "Ministro disciplinas de graduação e pós-graduação na Universidade Federal do Rio de Janeiro.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
