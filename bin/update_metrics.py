@@ -28,7 +28,7 @@ WOS_RESEARCHER_ID = "AAM-8131-2021"
 DIMENSIONS_AUTHOR = "ur.07610446311.08"
 
 PROFILES = {
-    "openalex": f"https://openalex.org/works?filter=authorships.author.id:{OPENALEX_AUTHOR.lower()}",
+    "openalex": f"https://openalex.org/{OPENALEX_AUTHOR}",
     "scopus": f"https://www.scopus.com/authid/detail.uri?authorId={SCOPUS_AUTHOR}",
     "wos": f"https://www.webofscience.com/wos/author/record/{WOS_RESEARCHER_ID}",
     "dimensions": f"https://app.dimensions.ai/details/entities/publication/author/{DIMENSIONS_AUTHOR}",

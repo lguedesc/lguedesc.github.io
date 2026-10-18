@@ -2,7 +2,7 @@
 layout: page
 title: Ensino
 permalink: /teaching/
-description: Ministro disciplinas de graduação e pós-graduação na Universidade Federal do Rio de Janeiro, todas ministradas em português do brasil [🇧🇷].
+description: Ministro disciplinas de graduação e pós-graduação na Universidade Federal do Rio de Janeiro.
 nav: true
 nav_order: 5
 display_categories: [Pós-Graduação, Graduação]

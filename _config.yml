@@ -6,6 +6,7 @@ title: Luã G. Costa # the website title (if blank, full name will be used inste
 first_name: Luã
 middle_name: G.
 last_name: Costa
+full_name: Luã Guedes Costa # full name used in structured data (schema.org)
 contact_note: >
   You can contact me via e-mail, researchgate or linkedin.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
