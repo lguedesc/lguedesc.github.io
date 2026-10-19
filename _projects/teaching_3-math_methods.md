@@ -89,7 +89,7 @@ Esta disciplina introduz as bases matemáticas fundamentais para modelagem e an�
 
 ---
 
-Em breve
+- [Lista 1](../../assets/pdf/for_teaching/math_methods/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
 
 <!-- - [Lista 1: Análise Tensorial e Transformação de Coordenadas](../../assets/pdf/for_teaching/dynamics_I/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
 - [Lista 2: Cinemática](../../assets/pdf/for_teaching/dynamics_I/Lista%202.pdf){:target="\_blank" rel="noopener noreferrer"}
