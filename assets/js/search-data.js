@@ -133,6 +133,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/15-Italian-Brazilian-Workshop-on-Metamaterials-and-Smart-Systems/";
+            },},{id: "news-mecsol-2026-são-josé-dos-campos-brazil",
+          title: '📍 MECSOL 2026 - São José dos Campos, Brazil',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/16-MECSOL_2026/";
             },},{id: "projects-mechanical-energy-harvesting",
           title: 'Mechanical Energy Harvesting',
           description: "A clean alternative to power standalone devices.",
