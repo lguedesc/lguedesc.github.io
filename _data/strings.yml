@@ -11,7 +11,10 @@ en:
   conference_papers: Conference papers
   source: Source
   citations_by_source: Citations by source
-  citations_per_year: Citations per year
+  metrics_per_year: Publications and citations per year
+  documents: Documents
+  journals: Journals
+  conferences: Conferences
   partial_year: partial
   metrics_updated: Metrics updated on
   og_locale: en_US
@@ -33,7 +36,10 @@ pt-br:
   conference_papers: Artigos em congressos
   source: Fonte
   citations_by_source: Citações por fonte
-  citations_per_year: Citações por ano
+  metrics_per_year: Publicações e citações por ano
+  documents: Documentos
+  journals: Periódicos
+  conferences: Congressos
   partial_year: parcial
   metrics_updated: Métricas atualizadas em
   og_locale: pt_BR

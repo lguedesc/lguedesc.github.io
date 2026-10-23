@@ -32,22 +32,61 @@
         </div>
       </div>
 
-      {% if m.openalex.citations_per_year %}
-        {% assign current_year = 'now' | date: '%Y' %}
+      {% assign current_year = 'now' | date: '%Y' %}
+      {% assign last_year = current_year | plus: 0 %}
+      {% assign cites_by_year = m.openalex.citations_per_year %}
+      {% assign years = '' | split: '' %}
+      {% assign journal = '' | split: '' %}
+      {% assign conference = '' | split: '' %}
+      {% assign cites = '' | split: '' %}
+      {% assign aria = '' | split: '' %}
+      {% assign started = false %}
+      {% comment %} Papers per year from the .bib, citations from OpenAlex; years before the first of either are skipped {% endcomment %}
+      {% for y in (2010..last_year) %}
+        {%- assign ys = y | append: '' -%}
+        {%- capture nj %}{% bibliography_count --query @article[year={{y}}] %}{% endcapture -%}
+        {%- capture nc %}{% bibliography_count --query @inproceedings[year={{y}}] %}{% endcapture -%}
+        {%- assign nj = nj | strip | plus: 0 -%}
+        {%- assign nc = nc | strip | plus: 0 -%}
+        {%- assign ncit = cites_by_year[ys] -%}
+        {%- if nj > 0 or nc > 0 or ncit %}{% assign started = true %}{% endif -%}
+        {%- if started -%}
+          {%- assign years = years | push: y -%}
+          {%- assign journal = journal | push: nj -%}
+          {%- assign conference = conference | push: nc -%}
+          {%- assign cites = cites | push: ncit -%}
+          {%- capture a %}{{ y }}{% if y == last_year %} ({{ t.partial_year }}){% endif %}: {{ nj }} {{ t.journal_papers }}, {{ nc }} {{ t.conference_papers }}, {{ ncit | default: 0 }} {{ t.citations }}{% endcapture -%}
+          {%- assign aria = aria | push: a -%}
+        {%- endif -%}
+      {% endfor %}
+
+      {% if years.size > 0 %}
         <div class="metrics-chart-wrap">
-          <h3 class="metrics-chart-title">
-            {{ t.citations_per_year }}
-            <small>(OpenAlex)</small>
-          </h3>
+          <div class="metrics-chart-head">
+            <h3 class="metrics-chart-title">{{ t.metrics_per_year }}</h3>
+            <ul class="metrics-legend">
+              <li><span class="metrics-swatch metrics-swatch-journal"></span>{{ t.journals }}</li>
+              <li><span class="metrics-swatch metrics-swatch-conference"></span>{{ t.conferences }}</li>
+              <li>
+                <span class="metrics-swatch metrics-swatch-citations"></span>{{ t.citations }}
+                <small>(OpenAlex)</small>
+              </li>
+            </ul>
+          </div>
           <div
-            id="citations-chart"
+            id="metrics-chart"
             class="metrics-chart"
             role="img"
-            aria-label="{{ t.citations_per_year }}: {% for y in m.openalex.citations_per_year %}{{ y[0] }}{% if y[0] == current_year %} ({{ t.partial_year }}){% endif %} {{ y[1] }}{% unless forloop.last %}, {% endunless %}{% endfor %}"
-            data-years="{% for y in m.openalex.citations_per_year %}{{ y[0] }}{% unless forloop.last %},{% endunless %}{% endfor %}"
-            data-values="{% for y in m.openalex.citations_per_year %}{{ y[1] }}{% unless forloop.last %},{% endunless %}{% endfor %}"
+            aria-label="{{ t.metrics_per_year }}: {{ aria | join: '; ' }}"
+            data-years="{{ years | join: ',' }}"
+            data-journal="{{ journal | join: ',' }}"
+            data-conference="{{ conference | join: ',' }}"
+            data-citations="{{ cites | join: ',' }}"
             data-current-year="{{ current_year }}"
-            data-label="{{ t.citations }}"
+            data-label-journal="{{ t.journal_papers }}"
+            data-label-conference="{{ t.conference_papers }}"
+            data-label-citations="{{ t.citations }}"
+            data-label-documents="{{ t.documents }}"
             data-partial="{{ t.partial_year }}"
           ></div>
         </div>
@@ -75,74 +114,150 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      var el = document.getElementById('citations-chart');
+      var el = document.getElementById('metrics-chart');
       if (!el || typeof echarts === 'undefined') return;
-      var years = el.dataset.years.split(',');
-      var values = el.dataset.values.split(',').map(Number);
-      var currentYear = el.dataset.currentYear;
+      var root = document.documentElement;
+      var d = el.dataset;
+      var years = d.years.split(',');
+      var journal = d.journal.split(',').map(Number);
+      var conference = d.conference.split(',').map(Number);
+      var citations = d.citations.split(',').map(function (v) {
+        return v === '' ? null : Number(v);
+      });
+      var totals = journal.map(function (j, i) {
+        return j + conference[i];
+      });
+
+      // The current year is still partial: its segment of the citations line is dashed
+      var last = years.length - 1;
+      var partial = years[last] === d.currentYear;
+      var solid = citations.map(function (v, i) {
+        return partial && i === last ? null : v;
+      });
+      var dashed = citations.map(function (v, i) {
+        return partial && i >= last - 1 ? v : null;
+      });
+
+      // Three round steps on both y axes, so their grid lines coincide
+      var docStep = Math.max(1, Math.ceil(Math.max.apply(null, totals) / 3));
+      var citStep = Math.max(5, Math.ceil(Math.max.apply(null, citations) / 3 / 5) * 5);
+
       var chart = echarts.init(el, null, { renderer: 'svg' });
-      // Three round steps on the y axis, so labels stay readable in a short chart
-      var step = Math.max(1, Math.ceil(Math.max.apply(null, values) / 3 / 5) * 5);
 
       function render() {
-        var dark = document.documentElement.getAttribute('data-theme') === 'dark';
-        var css = getComputedStyle(document.documentElement);
-        var text = css.getPropertyValue('--global-text-color').trim();
-        var muted = css.getPropertyValue('--global-text-color-light').trim();
-        var surface = css.getPropertyValue('--global-bg-color').trim();
-        var bar = dark ? '#d9782b' : '#d76c23';
+        var css = getComputedStyle(root);
+        var v = function (name) {
+          return css.getPropertyValue(name).trim();
+        };
+        var dark = root.getAttribute('data-theme') === 'dark';
+        var text = v('--global-text-color');
+        var muted = v('--global-text-color-light');
+        var surface = v('--global-bg-color');
         var grid = dark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.08)';
+        var lineColor = v('--metrics-citations');
 
-        chart.setOption({
-          animationDuration: 600,
-          grid: { left: 8, right: 8, top: 12, bottom: 0, containLabel: true },
-          tooltip: {
-            trigger: 'item',
-            backgroundColor: surface,
-            borderColor: grid,
-            textStyle: { color: text },
-            formatter: function (p) {
-              var partial = p.name === currentYear ? ' (' + el.dataset.partial + ')' : '';
-              return '<b>' + p.name + partial + '</b><br>' + el.dataset.label + ': ' + p.value;
-            },
-          },
-          xAxis: {
-            type: 'category',
-            data: years,
-            axisTick: { show: false },
-            axisLine: { lineStyle: { color: grid } },
-            axisLabel: { color: muted },
-          },
-          yAxis: {
+        // Stacked segments: surface-colored border leaves a gap between them; only the top one is rounded
+        function bars(name, values, color, isTop) {
+          return {
+            name: name,
+            type: 'bar',
+            stack: 'papers',
+            yAxisIndex: 0,
+            barMaxWidth: 24,
+            data: values.map(function (x, i) {
+              return {
+                value: x || '-',
+                itemStyle: { color: color, borderColor: surface, borderWidth: 1, borderRadius: isTop(i) ? [4, 4, 0, 0] : 0 },
+              };
+            }),
+          };
+        }
+
+        function line(values, type) {
+          return {
+            name: d.labelCitations,
+            type: 'line',
+            yAxisIndex: 1,
+            z: 5,
+            data: values,
+            symbol: 'circle',
+            symbolSize: 7,
+            lineStyle: { color: lineColor, width: 2, type: type },
+            itemStyle: { color: lineColor, borderColor: surface, borderWidth: 2 },
+          };
+        }
+
+        function axis(name, step, rotate, gap, splitLine) {
+          return {
             type: 'value',
-            interval: step,
+            name: name,
+            nameLocation: 'middle',
+            nameRotate: rotate,
+            nameGap: gap,
+            nameTextStyle: { color: muted },
+            min: 0,
             max: step * 3,
-            splitLine: { lineStyle: { color: grid } },
+            interval: step,
+            splitLine: { show: splitLine, lineStyle: { color: grid } },
             axisLabel: { color: muted },
-          },
-          series: [
-            {
-              type: 'bar',
-              barMaxWidth: 24,
-              data: values.map(function (v, i) {
-                var partial = years[i] === currentYear;
-                return {
-                  value: v,
-                  itemStyle: {
-                    color: bar,
-                    opacity: partial ? 0.55 : 1,
-                    borderRadius: [4, 4, 0, 0],
-                    decal: partial ? { symbol: 'rect', dashArrayX: [1, 0], dashArrayY: [2, 4], rotation: Math.PI / 4, color: surface } : null,
-                  },
-                };
-              }),
+          };
+        }
+
+        chart.setOption(
+          {
+            animationDuration: 600,
+            grid: { left: 26, right: 38, top: 12, bottom: 0, containLabel: true },
+            tooltip: {
+              trigger: 'axis',
+              axisPointer: { type: 'shadow', shadowStyle: { color: grid } },
+              backgroundColor: surface,
+              borderColor: grid,
+              textStyle: { color: text },
+              formatter: function (ps) {
+                var i = ps[0].dataIndex;
+                var head = '<b>' + years[i] + (partial && i === last ? ' (' + d.partial + ')' : '') + '</b>';
+                return (
+                  head +
+                  '<br>' +
+                  d.labelJournal +
+                  ': ' +
+                  journal[i] +
+                  '<br>' +
+                  d.labelConference +
+                  ': ' +
+                  conference[i] +
+                  '<br>' +
+                  d.labelCitations +
+                  ': ' +
+                  (citations[i] === null ? '—' : citations[i])
+                );
+              },
             },
-          ],
-        });
+            xAxis: {
+              type: 'category',
+              data: years,
+              axisTick: { show: false },
+              axisLine: { lineStyle: { color: grid } },
+              axisLabel: { color: muted },
+            },
+            yAxis: [axis(d.labelDocuments, docStep, 90, 22, true), axis(d.labelCitations, citStep, -90, 34, false)],
+            series: [
+              bars(d.labelJournal, journal, v('--metrics-journal'), function (i) {
+                return conference[i] === 0;
+              }),
+              bars(d.labelConference, conference, v('--metrics-conference'), function () {
+                return true;
+              }),
+              line(solid, 'solid'),
+              line(dashed, 'dashed'),
+            ],
+          },
+          true
+        );
       }
 
       render();
-      new MutationObserver(render).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+      new MutationObserver(render).observe(root, { attributes: true, attributeFilter: ['data-theme'] });
       new ResizeObserver(function () {
         chart.resize();
       }).observe(el);

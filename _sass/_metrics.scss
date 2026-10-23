@@ -2,6 +2,21 @@
  * Research metrics (publications page)
  ******************************************************************************/
 
+// Series of the publications and citations chart (read by the chart script too).
+// Journals use the site red ($red-color-dark), conferences the site orange,
+// and the citations line the text color, so it stands apart from the bars
+:root {
+  --metrics-journal: #b71c1c;
+  --metrics-conference: #d76c23;
+  --metrics-citations: #333333;
+}
+
+html[data-theme="dark"] {
+  --metrics-journal: #c62f2f;
+  --metrics-conference: #d9782b;
+  --metrics-citations: #e0e0e0;
+}
+
 .metrics {
   margin: 1.5rem 0 2rem;
 
@@ -13,7 +28,7 @@
     grid-template-columns: 342px minmax(0, 1fr);
     gap: 1.25rem;
 
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
       grid-template-columns: minmax(0, 1fr);
     }
   }
@@ -46,29 +61,73 @@
     color: var(--global-text-color-light);
   }
 
-  .metrics-chart-title {
-    font-size: 0.95rem;
-    margin: 0;
-
-    small {
-      color: var(--global-text-color-light);
-    }
-  }
-
   // The chart stretches to the height of the tiles beside it
   .metrics-chart-wrap {
     display: flex;
     flex-direction: column;
   }
 
+  .metrics-chart-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.25rem 0.75rem;
+  }
+
+  .metrics-chart-title {
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  .metrics-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.75rem;
+    color: var(--global-text-color-light);
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      white-space: nowrap;
+    }
+  }
+
+  .metrics-swatch {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+  }
+
+  .metrics-swatch-journal {
+    background-color: var(--metrics-journal);
+  }
+
+  .metrics-swatch-conference {
+    background-color: var(--metrics-conference);
+  }
+
+  // A short line, as the citations series is drawn as a line
+  .metrics-swatch-citations {
+    width: 14px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: var(--metrics-citations);
+  }
+
   .metrics-chart {
     width: 100%;
     flex: 1 1 0;
-    min-height: 120px;
+    min-height: 150px;
 
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
       flex: none;
-      height: 190px;
+      height: 220px;
     }
   }
 
