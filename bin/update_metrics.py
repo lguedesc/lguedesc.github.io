@@ -5,8 +5,9 @@ Sources:
   - OpenAlex (always, no key): citations, h-index, i10-index, works and
     citations received per year (summed from each work's counts_by_year).
   - Dimensions (always, no key): total citations, summed per DOI.
-  - Scopus (optional): needs SCOPUS_API_KEY and, outside the institutional
-    network, SCOPUS_INSTTOKEN.
+  - Scopus (optional): citations, h-index, documents, citations received
+    per year and citations of each paper (for the badges); needs SCOPUS_API_KEY and, outside the institutional network,
+    SCOPUS_INSTTOKEN.
   - Web of Science (optional): needs WOS_API_KEY (WoS Starter API).
 
 A source that fails keeps the values from the previous run, so a temporary
@@ -112,11 +113,50 @@ def fetch_scopus():
     )
     author = data["author-retrieval-response"][0]
     core = author["coredata"]
+    docs = scopus_search(f"AU-ID({SCOPUS_AUTHOR})", headers, "dc:identifier,eid,prism:doi,citedby-count")
     return {
         "citations": int(core["citation-count"]),
         "h_index": int(author["h-index"]),
         "documents": int(core["document-count"]),
+        "citations_per_year": scopus_citations_per_year(docs, headers),
+        # Per-paper badges on the publications page, keyed by lowercase DOI
+        "papers": {
+            d["prism:doi"].lower(): {"citations": int(d.get("citedby-count") or 0), "eid": d["eid"]}
+            for d in docs
+            if d.get("prism:doi")
+        },
     }
+
+
+def scopus_search(query, headers, field):
+    entries, start = [], 0
+    while True:
+        params = urllib.parse.urlencode({"query": query, "field": field, "count": 200, "start": start})
+        data = get_json(f"https://api.elsevier.com/content/search/scopus?{params}", headers)["search-results"]
+        page = [e for e in data.get("entry", []) if "error" not in e]
+        entries += page
+        start += len(page)
+        if not page or start >= int(data["opensearch:totalResults"]):
+            return entries
+
+
+def scopus_citations_per_year(docs, headers):
+    # The Citation Overview API is not covered by our entitlement (403) and
+    # REFEID() is a restricted field, so citing documents are found with
+    # REF(<scopus id>), one query per paper; per paper, so a document citing
+    # two papers counts twice, as in Scopus' citation count.
+    # Years follow the cover date, as Scopus does, so articles in press can
+    # already count for next year.
+    per_year = {}
+    for doc in docs:
+        scopus_id = doc["dc:identifier"].replace("SCOPUS_ID:", "")
+        for citing in scopus_search(f"REF({scopus_id})", headers, "prism:coverDate"):
+            year = int(citing["prism:coverDate"][:4])
+            per_year[year] = per_year.get(year, 0) + 1
+    if per_year:
+        last = max(max(per_year), datetime.date.today().year)
+        per_year = {str(y): per_year.get(y, 0) for y in range(min(per_year), last + 1)}
+    return per_year
 
 
 def fetch_wos():

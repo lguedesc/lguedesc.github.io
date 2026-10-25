@@ -262,6 +262,16 @@
         {% assign entry_has_dimensions_badge = true %}
       {% endif %}
 
+      {% comment %} Scopus citations come from _data/metrics.json (bin/update_metrics.py), keyed by lowercase DOI {% endcomment %}
+      {% assign entry_has_scopus_badge = false %}
+      {% if entry.doi %}
+        {% assign scopus_doi = entry.doi | downcase %}
+        {% assign scopus_paper = site.data.metrics.scopus.papers[scopus_doi] %}
+        {% if scopus_paper %}
+          {% assign entry_has_scopus_badge = true %}
+        {% endif %}
+      {% endif %}
+
       {% assign entry_has_google_scholar_badge = false %}
       {% if entry.google_scholar_id %}
         {% assign entry_has_google_scholar_badge = true %}
@@ -271,7 +281,12 @@
       {% if entry.inspirehep_id %}
         {% assign entry_has_inspirehep_badge = true %}
       {% endif %}
-      {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge or entry_has_inspirehep_badge %}
+      {% if entry_has_altmetric_badge
+        or entry_has_dimensions_badge
+        or entry_has_scopus_badge
+        or entry_has_google_scholar_badge
+        or entry_has_inspirehep_badge
+      %}
         <div class="badges">
           {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
             <span
@@ -307,6 +322,20 @@
               data-legend="hover-right"
               style="margin-bottom: 3px;"
             ></span>
+          {% endif %}
+          {% if site.enable_publication_badges.scopus and entry_has_scopus_badge %}
+            {% assign scopus_strings = site.data.strings[site.active_lang] | default: site.data.strings.en %}
+            <a
+              class="scopus-badge"
+              href="https://www.scopus.com/record/display.uri?eid={{ scopus_paper.eid }}&origin=inward"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="{{ scopus_strings.citations }} (Scopus): {{ scopus_paper.citations }}"
+              title="{{ scopus_strings.citations }} (Scopus): {{ scopus_paper.citations }}"
+            >
+              <span class="scopus-badge-label">{{ scopus_strings.citations }}</span>
+              <span class="scopus-badge-count">{{ scopus_paper.citations }}</span>
+            </a>
           {% endif %}
           {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
             <a

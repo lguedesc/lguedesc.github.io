@@ -137,3 +137,50 @@ html[data-theme="dark"] {
     margin: 0.75rem 0 0;
   }
 }
+
+// Scopus citations badge on each paper (_layouts/bib.liquid), sized to sit
+// beside the Dimensions "small_rectangle" badge. The theme styles every
+// `.publications ol.bibliography li .badges span`, so the inner spans need
+// the extra class to win. Colored like the Abs/Bib/PDF buttons (.links a.btn
+// in _base.scss): text color outline, site orange on hover. The spans inherit
+// the link color so text and border change together
+.publications .badges .scopus-badge {
+  display: inline-flex;
+  gap: 0.3rem;
+  vertical-align: middle;
+  height: 20px;
+  margin: 0 0.5rem 3px 0;
+  padding: 0 0.45rem;
+  color: var(--global-text-color);
+  border: 1px solid var(--global-text-color);
+  border-radius: 3px;
+  font-size: 0.7rem;
+  line-height: 18px;
+  text-decoration: none;
+  transition:
+    color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+
+  .scopus-badge-label,
+  .scopus-badge-count {
+    color: inherit;
+    padding: 0;
+    height: auto;
+    text-decoration: none;
+  }
+
+  .scopus-badge-count {
+    font-weight: 600;
+  }
+
+  &:hover {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+
+  // Beats the theme's `.badges span:hover` underline
+  &:hover .scopus-badge-label,
+  &:hover .scopus-badge-count {
+    text-decoration: none;
+  }
+}
