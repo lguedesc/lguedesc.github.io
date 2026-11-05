@@ -84,16 +84,13 @@ Esta disciplina introduz as bases matemáticas fundamentais para modelagem e an�
 - [Aula 2](https://drive.google.com/uc?export=download&id=11zU9xb8IX4U2bkbL3jAw0gI28B5GdRxn){:target="\_blank" rel="noopener noreferrer"}
 - [Aula 3](https://drive.google.com/uc?export=download&id=1mBSw5-h7TwLqrS7S2aOsjD0g3kPiZ6EP){:target="\_blank" rel="noopener noreferrer"}
 - [Aula 4](https://drive.google.com/uc?export=download&id=12ejMxeMEl4LcJQb3xRbbZibfcFobt1Qq){:target="\_blank" rel="noopener noreferrer"}
+- [Aula 5](https://drive.google.com/uc?export=download&id=1WCrboj4m8klXyzYdeiJMGQD7-xb1vCTb){:target="\_blank" rel="noopener noreferrer"}
 
 #### **Listas de Exercício**
 
 ---
 
 - [Lista 1](../../assets/pdf/for_teaching/math_methods/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
-
-<!-- - [Lista 1: Análise Tensorial e Transformação de Coordenadas](../../assets/pdf/for_teaching/dynamics_I/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
-- [Lista 2: Cinemática](../../assets/pdf/for_teaching/dynamics_I/Lista%202.pdf){:target="\_blank" rel="noopener noreferrer"}
-- [Lista 3: Dinâmica da Partícula](../../assets/pdf/for_teaching/dynamics_I/Lista%203.pdf){:target="\_blank" rel="noopener noreferrer"} -->
 
 <!-- ##### **Resoluções de Exercícios**
 
