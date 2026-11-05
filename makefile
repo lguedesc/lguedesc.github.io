@@ -1,6 +1,6 @@
-msg ?= "default commit message"
+msg ?= default commit message
 
-all: prettier_run git_add_all git_commit git_push
+all: prettier_run git_add_all git_commit git_rebase git_push
 
 prettier_run:
 	npx prettier --write .
@@ -10,6 +10,9 @@ git_add_all:
 
 git_commit:
 	git commit -m "$(msg)"
+
+git_rebase:
+	git pull --rebase origin main
 
 git_push:
 	git push origin main
