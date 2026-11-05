@@ -91,6 +91,7 @@ Esta disciplina introduz as bases matemáticas fundamentais para modelagem e an�
 ---
 
 - [Lista 1](../../assets/pdf/for_teaching/math_methods/Lista%201.pdf){:target="\_blank" rel="noopener noreferrer"}
+- [Lista 2](../../assets/pdf/for_teaching/math_methods/Lista%202.pdf){:target="\_blank" rel="noopener noreferrer"}
 
 <!-- ##### **Resoluções de Exercícios**
 
