@@ -8,7 +8,7 @@ category: Research Themes
 related_publications: true
 ---
 
-A dynamical system is a set of elements whose state evolves over time according to fixed rules. One can think of it as a frame-by-frame description of reality, where each frame represents a state of the reality at a given moment. Nonlinear behavior emerges in scenarios where small causes can produce large effects. In this sense, nature is intrinsically nonlinear, and plenty of nonlinear dynamical systems are found in nature, which provides inspiration for design and innovation. Complex phenomena such as chaotic can arise in nonlinear systems, which...
+<!-- A dynamical system is a set of elements whose state evolves over time according to fixed rules. One can think of it as a frame-by-frame description of reality, where each frame represents a state of the reality at a given moment. Nonlinear behavior emerges in scenarios where small causes can produce large effects. In this sense, nature is intrinsically nonlinear, and plenty of nonlinear dynamical systems are found in nature, which provides inspiration for design and innovation. Complex phenomena such as chaotic can arise in nonlinear systems, which...
 
     ---
     layout: page
@@ -74,4 +74,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
