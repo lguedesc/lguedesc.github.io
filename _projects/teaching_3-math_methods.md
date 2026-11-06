@@ -22,7 +22,7 @@ Esta disciplina introduz as bases matemáticas fundamentais para modelagem e an�
   <div class="p-3 rounded-3 border d-flex flex-column"
        style="background-color: var(--global-bg-color); color: var(--global-text-color); border-color: var(--global-border-color);">
     <strong style="color: var(--global-text-color);">Datas Importantes</strong><br>
-    Avaliação 1 (Álgebra Linear): 04/11<br>
+    Avaliação 1 (Álgebra Linear): 11/11<br>
     Avaliação 2 (Equações Diferenciais): 16/12<br>
   </div>
 </div>
