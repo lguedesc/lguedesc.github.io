@@ -6,7 +6,7 @@
     "dimensions": "https://app.dimensions.ai/details/entities/publication/author/ur.07610446311.08"
   },
   "openalex": {
-    "citations": 131,
+    "citations": 134,
     "h_index": 5,
     "i10_index": 4,
     "documents": 20,
@@ -14,8 +14,8 @@
       "2021": 3,
       "2022": 4,
       "2023": 6,
-      "2024": 31,
-      "2025": 44,
+      "2024": 33,
+      "2025": 45,
       "2026": 43
     }
   },
@@ -58,5 +58,5 @@
       }
     }
   },
-  "updated": "2026-11-16"
+  "updated": "2026-11-17"
 }
