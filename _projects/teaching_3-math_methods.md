@@ -86,6 +86,7 @@ Esta disciplina introduz as bases matemáticas fundamentais para modelagem e an�
 - [Aula 4](https://drive.google.com/uc?export=download&id=12ejMxeMEl4LcJQb3xRbbZibfcFobt1Qq){:target="\_blank" rel="noopener noreferrer"}
 - [Aula 5](https://drive.google.com/uc?export=download&id=1WCrboj4m8klXyzYdeiJMGQD7-xb1vCTb){:target="\_blank" rel="noopener noreferrer"}
 - [Aula 6](https://drive.google.com/uc?export=download&id=16S7jg_XBrW7kiExjPQDk114KLra0e752){:target="\_blank" rel="noopener noreferrer"}
+- [Aula 7](https://drive.google.com/uc?export=download&id=1AQCM-Ic_ebrLwPQjooeqgqpbQaaO8f3D){:target="\_blank" rel="noopener noreferrer"}
 
 #### **Listas de Exercício**
 
